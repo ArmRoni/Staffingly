@@ -1,4648 +1,1576 @@
-@media (min-width: 992px) and (max-width: 1040px) {
-    .partner-login ul li a {
-        padding: 0px 13px;
-    }
+/* @media screen and (min-width: 1925px) {
+  .container {
+    max-width: 2400px;
+    margin: 0 auto;
+  }
 }
-@media screen and (min-width: 1925px) {
-    .container {
-        max-width: 2400px;
-        margin: 0 auto;
-    }
-   
-    .client-text-quote {
-        max-width: 100%;
-    }
-    .custom-py {
-        padding-left: 150px;
-        padding-right: 150px;
-    }
-    .service-contnet-wrap img {
-        width: 100%;
-    }
+
+@media screen and (min-width: 2500px) {
+  .custom-py {
+    padding-left: 300px;
+    padding-right: 300px;
   }
 
-  @media screen and (min-width: 2500px) {
-    .custom-py {
-        padding-left: 300px;
-        padding-right: 300px;
-    }
-    .we-different-photo {
-        max-width: 880px;
-    }
-    .our-employes-item {
-        height: 250px;
-    }
-    .our-employes-item img {
-        max-width: 250px;
-    }
-    .container {
-        max-width: 2800px;
-        margin: 0 auto;
-    }
-    .teamextend-text {
-        max-width: 100%;
-        padding-right: 120px;
-    } 
-    .staff-photo img {
-        width: 100%;
-    }
-    .owl-nav {
-        top: 43%;
-    }
-    .we-different-area .container {
-        position: relative;
-    }
-    .banner-area {
-        background-position: bottom -248px center;
-    }
+  .container {
+    max-width: 2800px;
+    margin: 0 auto;
   }
-@media only screen and (max-width: 1800px) {
-    .secure-delivery-list-bg ul li {
-        font-size: 28px;
-    }
-    .we-different-photo {
-        max-width: 870px;
-    }
-    .your-team-info h3 {
-        font-size: 42px;
-        line-height: 62px;
-    }
-    .teamextend-area .common-title {
-        margin-bottom: 6px;
-        padding-left: 300px;
-    }
-    .teamextend-bg {
-        padding: 0px 70px 130px 80px;
-    }
-    .review-item {
-        border-radius: 15px;
-        background: var(--white);
-        padding: 45px 25px 30px 24px;
-    }
-    .counter-number-count span,
-    .counter-number span {
-        width: 24px;
-    }
-    .carsoul-slider-wrap {
-        padding: 0 60px;
-    }
-    .services-info {
-        padding: 10px 5px;
-    }
-    .blog-main .outsourcing-innder-title h3 {
-        font-size: 20px;
-    }
-    .blog-main .outsourcing-title h2 {
-        font-size: 26px;
-    }
-    .services-info h6 {
-        min-height: 50px;
-    }
-    .footer-busniss-icon {
-        width: 80px;
-        min-width: 80px;
-    }
-    .footer-busniess-box {
-        gap:40px
-    }
-    .footer-busniess-item {
-        width: calc((100% - 80px) / 2);
-    }
-    .footer-busniess-item p {
-        font-size: 16px;
-        line-height: 25px;
-    }
-    .footer-busniss-info h3 {
-        font-size: 24px;
-    }
-    .blog-main {
-        width: 73.5%;
-    }
-    .sidebar-box {
-      width: 26.5%;
-    }
+} */
 
-}
+@media screen and (max-width: 1780px) {
+  .container {
+    max-width: 1240px;
+  }
 
-@media only screen and (max-width: 1780px) {
-    .container {
-        max-width: 1400px;
-    }
-    .banner-content h4 span::after {
-        width: 90px;
-    }
-    .top-batton-box ul li a {
-        font-size: 12px;
-        font-weight: 500;
-        padding: 2px 19px;
-    }
-    .service-box span {
-        font-size: 14px;
-    }
-    .partner-login ul li a {
-        font-size: 12px;
-    }
-    .case-study-title.team-title h2 {
-        padding-bottom: 0px;
-    }
-    .team-name-box h6 {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .team-name-box span {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .logo {
-        width: 210px;
-    }
-    .header-top {
-        height: 40px;
-    }
-    .header-top-inner {
-        padding: 9px 0px;
-    }
-    .phone-btn {
-        font-size: 20px;
-        padding: 4px 28px
-    }
-    .main-header {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .menu-navbar ul {
-        gap:20px;
-    }
-    .menu-navbar ul li a {
-        padding-bottom: 6px;
-        font-weight: 400;
-    }
-    .banner-area {
-        padding-top: 290px;
-    }
-    .banner-content h1 {
-        font-size: 50px;
-        font-weight: 700;
-    }
-     .accordion-content p {
-        font-size: 16px;
-        line-height: 24px;
-     }
-     .faq-contnet-wrap .faq-title {
-        font-size: 44px;
-        margin-top: 19px;
-     }
+  .logo {
+    max-width: 280px;
+  }
 
-    
-    .scroller {
-        height: 57px; /* Adjust height to match the new text size */
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-      }
-      
-      .scroller > .scroll-in {
-        position: absolute;
-        top: 0;
-        animation: slide 12s infinite;
-        font-weight: bold;
-      }
-      
-      @keyframes slide {
-        0%, 16.67% {
-           top: -10px; /* First item in the middle */
-        }
-        19.67%, 33.33% {
-           top: -70px; /* Move to second item */
-        }
-        36.33%, 50% {
-           top: -134px; /* Move to third item */
-        }
-        53%, 66.67% {
-           top: -200px; /* Move to fourth item */
-        }
-        69.67%, 83.33% {
-           top: -264px; /* Move to fifth item */
-        }
-        86.33%, 96.67% {
-           top: -330px; /* Move to sixth item */
-        }
-        100% {
-           top: -10px; /* Reset to the first item, same as at the start */
-        }
-      }
-      
-      .banner-content .scroll-in span {
-        font-size: 50px; /* Adjusted font size */
-      }
-      .banner-content h4 {
-        font-size: 38px;
-        padding-bottom: 64px;
-    }
-    .banner-content h4 span {
-        font-size: 45px;
-    }
-    .btn {
-        height: 58px;
-        font-size: 20px;
-    }
-    .button-box {
-        padding-bottom: 260px;
-    }
-    .right-arrow {
-        right: -116px;
-        max-width: 100px;
-    }
-    .banner-area::before {
-        bottom: -20px;
-    }
+  .header {
+    padding: 20px 0px;
+  }
 
-    .outsourcing-title h2 {
-        font-size: 46px;
-        line-height: 64px;
-    }
-    .outsourcing-icon {
-        width: 140px;
-        min-width: 140px;
-    }
-    .services-info h6 {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .services-icon {
-        max-width: 70px;
-    }
-    .services-top {
-        height: 120px;
-    }
-    .outsourcing-services {
-        padding-bottom: 60px;
-    }
-    .secure-delivery-list-bg {
-        padding: 44px 70px 50px 70px;
-    }
-    .secure-delivery-list-bg ul li {
-        font-size: 24px;
-    }
+  .manufacturing-item p {
+    font-size: 15px;
+  }
 
-    .secure-delivery-list-bg ul li::before {
-        top: 10px;
-        left: 0px;
-        width: 15px;
-        height: 15px;
-    }
-    .testimonials-box-full .client-text-quote h5 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .common-btn a {
-        height: 54px;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .secure-delivery-area {
-        padding-bottom: 60px;
-    }
-    .common-title h2 {
-        font-size: 48px;
-        font-weight: 700;
-    } 
-    .title-icon {
-        width: 44px;
-    }
-    .title-icon.title-custom-width {
-        width: 90px;
-    }
-    
-    
-    .common-title {
-        padding: 5px 35px;
-    }
-    .works-item-count {
-        width: 80px;
-        height: 96px;
-        margin-top: -58px;
-    }
-    .works-item-count span {
-        margin-top: 13px;
-        max-width: 42px;
-    }
-    .works-content-item h4 {
-        font-size: 20px;
-        font-weight: 600;
-     }
-     .works-content-item p {
-        font-size: 18px;
-        font-weight: 300;
-    }
-    .cost-saving-area {
-        padding-top: 60px;
-    }
-    .cost-saving-info p {
-        font-size: 24px;
-        line-height: 35px;
-        margin-bottom: 0px;
-    }
-    .cost-saving-btn .date-btn.btn {
-        height: 54px;
-        padding: 5px 20px;
-    }
-    .cost-saving-btn {
-        width: 280px;
-         min-width: 280px;
-    }
-    .cost-saving-content.d-flex {
-        gap: 58px;
-    }
-    .we-different-area {
-        padding-bottom: 0px;
-    }
-    .different-btn-box h4 {
-        margin-bottom: 0px;
-        font-size: 26px;
-    }
-    .we-different-info p {
-        font-size: 22px;
-        line-height: 28px;
-    }
+  .common-title h4 {
+    font-size: 21px;
+  }
 
-    .we-different-info .client-text-quote h5 {
-        font-size: 28px;
-        line-height: 38px;
-    }
-    .testimonials-box {
-        margin-top:60px;
-    }
-    .testimonials-area .client-text-quote h5 {
-        font-size: 17px;
-        font-weight: 500;
-    }
-
-    .client-btn span {
-        font-size: 16px;
-        font-weight: 500;
-    }
-    .your-team-form-area {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .your-team-form-area  .common-title {
-        margin-bottom: 40px;
-    }
-    .your-team-info h3 {
-        font-size: 36px;
-        line-height: 58px;
-    }
-    .your-team-info ul li {
-        font-size: 22px;
-        font-weight: 500;
-    }
-    .jog-seekeer-link span {
-        font-size: 45px;
-        line-height: 64px;
-        padding: 22px 40px;
-        padding-left: 100px;
-    }
-    .jog-seeker-icon {
-        width: 150px;
-        min-width: 150px;
-        height: 150px;
-        border: 2px solid var(--yellow);
-    }
-    .jog-seeker-icon img {
-        max-width: 80px;
-    }
-    .job-seeker-bg {
-        padding: 48px 51px;
-        border-radius: 16px;
-    }
-    .jog-seekeer-link {
-        border-radius: 10px;
-    }
-    .our-employes-area .common-title {
-        padding-top: 60px;
-    }
-    .our-employes-area span {
-        font-size: 18px;
-    }
-    .our-employes-area {
-        padding-bottom: 60px;
-    }
-    .staff-info h3 {
-        font-size: 40px;
-        line-height: 55px;
-        padding-bottom: 8px;
-    }
-    .staff-info p {
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 50px;
-    }
-    .our-employes-wrap {
-        padding-top: 50px;
-    }
-    .teamextend-text h3 {
-        font-size: 26px;
-        line-height: 40px;
-    }
-    .teamextend-text p {
-        font-size: 15px;
-        line-height: 24px;
-    }
-    .video-play-btn {
-        width: 140px;
-        min-width: 140px;
-        height: 140px;
-    }
-    .teamextend-text {
-        max-width: 500px;
-    }
-    .teamextend-photo {
-        width: 350px;
-        min-width: 350px;
-        margin-top: -80px;
-    }
-    .teamextend-bg {
-        padding: 0px 70px 110px 70px;
-    }
-    .teamextend-area .common-title { 
-        padding-left: 200px;
-    }
-    .review-client-area {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .review-client-area .common-title {
-        margin-bottom: 40px;
-    }
-    .review-info p {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 500;
-    }
-    .review-title h5 {
-        font-size: 21px;
-        line-height: 28px;
-    }
-    .numbers-speck-title span {
-        font-size: 15px;
-        padding-top:6px;
-    }
-    .numbers-counter-item h5 {
-        font-size: 24px;
-        padding-bottom: 5px;
-    }
-    .numbers-counter-wrap {
-        padding: 40px 22px 30px 22px;
-    }
-    
-    .counter-number {
-        gap: 2px;
-    }
-    .counter-number-count span,
-    .counter-number span {
-        font-size: 28px;
-        width: 23px;
-        height: 38px;
-    }
-    .prior-authorization-title h3 {
-        font-size: 36px;
-    }
-    .prior-authorization-title {
-        padding: 20px 38px 20px 0px;
-        max-width: 675px;
-        height: 120px;
-    }
-    .prior-authorization-info::before {
-        height: 120px;
-    }
-
-    .prior-authorization-info p {
-        font-size: 17px;
-        line-height: 30px;
-    }
-    .read-more-btn {
-        font-size: 12px;
-        border-radius: 3px;
-        padding: 2px 14px;
-    }
-    .authorrization-info-box {
-        padding: 80px 60px 50px 80px;
-        margin-top: -56px;
-    }
-    .prior-authorization-top h3 {
-        padding-bottom: 15px;
-        font-size: 40px;
-    }
-    .prior-authorization-top p {
-        line-height: 28px;
-        font-size: 18px;
-        font-weight: 400;
-    }
-    .outsourcing-area {
-        padding-bottom: 60px;
-    }
-    .vido-play-slider {
-        width:90px;
-        height: 90px;
-    }
-    .carsoul-slider-wrap {
-        padding: 0px;
-    }
-    .slider-info h4 {
-        font-size: 23px;
-    }
-    .btn-wrap {
-        padding-top: 50px;
-    }
-    .form-control,
-    .subscribe-form input[type=email] {
-        height: 50px;
-        padding: 10px 20px;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .second-team-form .your-team-info h3 {
-        font-size: 38px;
-    }
-    .second-team-form .your-team-info h3 {
-        font-size: 38px;
-    }
-    .second-team-form .your-team-info p {
-        font-size: 19px;
-        line-height: 30px;
-    }
-    .footer-logobox ul {
-        gap: 38px;
-    }
-    
-    .footer-logobox ul li {
-        max-width: 240px;
-    }
-    .footer-busniss-info .footer-logobox p, .footer-logobox h6 {
-        font-size: 26px;
-        line-height: 34px;
-        padding-top: 20px;
-        padding-bottom: 34px;
-    }
-    .footer-busniess-item {
-        padding: 24px 26px 20px 28px;
-    }
-    .footer-busniss-info h3 {
-        font-size: 22px;
-    }
-    .footer-busniess-box {
-        padding-bottom: 60px;
-    }
-    .footer-area h4 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 24px;
-    }
-    .footer-area p {
-        font-size: 18px;
-        line-height: 28px;
-        font-weight: 400;
-        margin-bottom: 40px;
-    }
-    .usefull-list-widget ul li {
-        font-size: 16px;
-        line-height: 35px;
-        padding: 3px 0px;
-        font-weight: 400;
-    }
-    .subscribe-form .form-control,
-    .subscribe-form input[type="email"] {
-        height: 70px;
-        font-size: 18px;
-    }
-    .subscribe-form button,
-    .subscribe-form input[type="submit"] {
-        height: 70px;
-        font-size: 20px;
-    }
-    .copyright-wrap span {
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .footer-logo {
-        max-width: 250px;
-    }
-    .media-link ul {
-        gap: 10px;
-    }
-    
-    .inner-banner {
-        padding-top: 115px;
-    }    
-    
-    .breadcrumb {
-        padding-top: 10px;
-    }
-    .breadcrumb a, .breadcrumb span {
-        font-size: 16px;
-    }
-    .title-inner-icon {
-        max-width: 110px;
-    }
-    .inner-banner .banner-content h1 {
-        font-size: 52px;
-        font-weight: 700;
-        line-height: 62px;
-    }
-    .banner-title-inner p, .banner-title-inner span {
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .inner-banner-content {
-        padding-top: 58px;
-        padding-bottom: 78px;
-    }
-    .inner-banner .date-btn.btn {
-        height: 50px;
-        font-size: 14px;
-        padding:1px 34px
-    }
-    .staffing-btn-box .btn {
-        height: 40px;
-        font-size: 14px;
-        padding: 1px 28px;
-    }
-    .blog-item-photo {
-        width: 330px;
-        min-width: 330px;
-    }
-    .blog-info-btn {
-        padding: 7px 11px 8px 12px;
-        gap: 8px;
-        border-radius: 3px 3px 11px 3px;
-        font-size: 12px;
-    }
-    .share-icon {
-        width: 23px;
-        min-width: 23px;
-    }
-    .blog-item-text h3 {
-        font-size: 23px;
-        padding: 20px 0px 15px 0px;
-    }
-
-    .blog-item-text p {
-        font-size: 15px;
-        line-height: 26px;
-       
-    }
-    .blog-bottom-box .btn {
-        font-size: 24px;
-        min-width: 210px;
-        font-size: 20px;
-    }
-    .autor-box.d-flex.align-items-center {
-        gap: 10px;
-    }
-    
-    .autor-box a img {
-        width: 30px;
-        min-width: 30px;
-    }
-    .autor-box span {
-        font-size: 16px;
-    }
-    .about-widget-inner {
-        max-width: 520px;
-    }
-    .sidebar-box {
-        width: 25.2%;
-    }
-    .blog-main {
-        width: 74.8%;
-    }
-    .read-case-btn a {
-        font-size: 18px;
-        padding: 10px 10px;
-    }
-    .read-case-btn a img {
-        width: 28px;
-    }
-    .sidebar-category-box  {
-        padding: 20px;
-    }
-    .keyword-search .form-control {
-        height: 46px;   
-        padding: 5px 12px;
-        font-size: 14px;
-    }
-    .keyword-search button {
-        font-size: 12px;
-    }
-    .sidebar-title h6 {
-        font-size: 16px;
-    }
-    .sidebar-category-box .subscribe-form .form-control {
-        height: 50px;
-    }
-    .category-list ul li {
-        padding: 10px 0px;
-    }
-    .sidebar-category-box .services-icon {
-        max-width: 60px;
-    }
-    .sidebar-category-box .services-info {
-        min-height: 70px;
-    }
-    .sidebar-category-box .services-info h6 {
-        min-height: auto;
-    }
-    
-    .we-different-area .common-title  {
-        margin-bottom: 60px;
-    }
-    .information-video-photo {
-        width: 130px;
-        min-width: 130px;
-    }
-    
-    .video-single-item p {
-        font-size: 14px;
-    }    
-
-    .service-contnet-wrap ol li, .service-contnet-wrap ul li, .service-contnet-wrap p {
-        font-size: 16px;
-        line-height: 24px;
-        color: #303030;
-    }
-    .service-contnet-wrap h2 {
-        font-size: 26px;
-        margin-bottom: 15px;
-    }
-    .service-contnet-wrap h6 {
-        font-size: 18px;
-        margin-bottom: 16px;
-    }
-    .service-contnet-wrap p img{
-        margin-bottom: 20px;
-        width: 100%;
-    }
-    .address-info h2 {
-        font-size: 26px;
-        margin-bottom: 25px;
-    }
-    .blog-area {
-        padding-top: 70px;
-    } 
-    .address-info ul li a {
-        font-size: 20px;
-    }
-    .address-info ul li {
-        padding-bottom: 8px;
-    }
-    .address-wrap-box {
-        margin-bottom: 68px;
-    }
-    .contant-form-box h4 {
-        font-size: 28px;
-        margin-bottom: 40px;
-    }
-    .contant-form-box .date-btn.btn {
-        height: 50px;
-    }
-    .office-location-single h4 {
-        font-size: 25px;
-        margin-bottom: 18px;
-    }
-    .office-location-single p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .contact-vidoe-box .slider-info h4 {
-        font-size: 18px;
-        line-height: 28px;
-        padding-top: 20px;
-    }
-    .hired-apply-box {
-        margin-top: 60px;
-    }
-    .hired-apply-box h3 {
-        font-size: 38px;
-        padding-bottom: 38px;
-    }
-    .hired-btn-wrap a {
-        font-size: 18px;
-        padding: 14px 57px;
-    }
-    .number-speak-2 .numbers-speck-title {
-        padding-bottom: 40px;
-    }
-    .number-speak-2 .numbers-counter-item h5 {
-        padding-bottom: 4px;
-        font-size: 22px;
-    }
-    .counter-number-count span,
-    .number-speak-2 .counter-number span {
-        font-size: 22px;
-        width: 24px;
-        height: 35px;
-        padding:4px 5px;
-    }
-    .number-speak-2 .counter-number span  {
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-    .number-speak-2 .counter-number {
-        padding: 15px 20px;
-        border-radius: 10px;
-    }
-    .service-contnet-wrap {
-        padding-top: 60px;
-    }
-    .our-services-box .service-contnet-wrap img {
-        margin-bottom: 60px;
-    }
-    .services-element-box {
-        padding: 35px 36px 0px 0px;
-    }
-    .services-element-item {
-        padding: 20px 26px;
-        gap: 24px;
-    }
-    
-    .our-services-box .services-icon {
-        width: 158px;
-        min-width: 158px;
-        height: 158px;
-    }
-    .our-services-box .services-icon img {
-        max-width: 95px;
-    }
-    
-    .services-element-info h5 {
-        font-size: 20px;
-        margin-bottom: 12px;
-    }
-    .services-element-info .btn {
-        font-size: 16px;
-        height: 44px;
-        font-weight: 400;
-    }
-    .complated-counter-item h2 {
-        font-size: 40px;
-        margin-bottom: 0px;
-    }
-    .complated-counter-item h6 {
-        margin-bottom: 8px;
-    }
-    .complated-counter-item p {
-        font-size: 14px;
-    }
-    .project-complated-counter {
-        padding-bottom: 50px;
-    }
-    .employess-use-softwares img {
-        padding-bottom: 0px !important;
-    }
-    .employess-use-softwares {
-        padding: 50px 20px;
-        margin-top: 50px;
-        padding-bottom: 20px;
-    }
-     .employess-use-softwares h2 {
-        margin-bottom: 0px;
-    }
-    .employess-use-softwares .common-title {
-        margin-bottom: 20px;
-    }
-    .employess-use-softwares .title-icon {
-        width: 50px;
-    }
-    .solution-photo img {
-        margin-bottom: 20px;
-    }
-    .solution-info h3 {
-        font-size: 22px;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-    .solution-info .btn {
-        height: 50px;
-        font-size: 15px;
-        color: var(--green);
-        padding: 2px 32px;
-    }
-    
-    .case-study-title h2 {
-        font-size: 40px;
-    }
-    .our-solutions-content {
-        gap:30px 40px;
-    }
-    .our-solutions-item {
-        width: calc((100% - 40px) / 2);
-    }
-    .service-contnet-wrap .pagination-wrap {
-        margin-top: 60px;
-    }
-    .client-review-info p {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-    }
-    .faq-contnet-wrap .faq-title h2 {
-        font-size: 32px;
-    }
-    .subscribe-form input[type="submit"] {
-      background-position-x: calc(50% - -52px);
-    }
-}
-
-@media only screen and (max-width: 1660px) {
-    .carsoul-slider-wrap {
-        padding: 0 60px;
-    }
-}
-
-@media only screen and (max-width: 1600px) {
-    .services-info h6 {
-        font-size: 18px;
-        line-height: 24px;
-        min-height: 48px;
-    }
-   
-
-    .services-icon {
-        max-width: 76px;
-    }
-    .services-top {
-        height: 122px ;
-    }
-    .outsourcing-title h2 {
-        font-size: 46px;
-        font-weight: 700;
-        line-height: 66px;
-    }
-    .outsourcing-icon {
-        width: 130px;
-        min-width: 130px;
-    }
-    .outsourcing-title {
-        gap: 30px;
-    }
-    .secure-delivery-list-bg {
-        padding: 50px 40px 60px 40px;
-    }
-    .secure-delivery-list-bg ul li {
-        font-size: 24px;
-    }
-    .secure-delivery-list-bg ul li::before  {
-        top:9px
-    }
-
-    .different-btn-box h4 {
-        font-size: 25px;
-        line-height: 140%;
-    }
-    .we-different-info p {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .we-different-info .client-text-quote h5 {
-        font-size: 28px;
-        line-height: 38px;
-    }
-    .we-different-photo {
-        max-width: 700px;
-    }
-    .your-team-info h3 {
-        font-size: 38px;
-        line-height: 54px;
-    }
-    .your-team-info ul li {
-        font-size: 22px;
-        padding-left: 37px;
-    }
-    .jog-seekeer-link span {
-        font-size: 44px;
-        line-height: 60px;
-    }
-    .teamextend-area .common-title {
-        margin-bottom: 6px;
-        padding-left: 370px;
-    }
-    .teamextend-photo {
-        width: 330px;
-        min-width: 330px;
-        margin-top: -80px;
-    }
-
-    .teamextend-bg {
-        padding: 0px 42px 111px 50px;
-    }
-    .review-info p {
-        font-size: 16px;
-        line-height: 25px;
-    }
-    .counter-number span {
-        padding: 4px 5px;
-        font-size: 25px;
-        width: 21px;
-        height: 40px;
-    }
-    .numbers-counter-item h5 {
-        font-size: 22px;
-        padding-bottom: 8px;
-    }
-    .counter-number {
-        gap:2px;
-    }
-    .prior-authorization-success {
-        width: 28%;
-    }
-    .prior-authorization-title h3 {
-        font-size: 34px;
-    }
-    .prior-authorization-title {
-        width: 750px;
-    }
-    .vido-play-slider {
-        width: 80px;
-        height: 80px;
-    }
-    button.owl-prev {
-        margin-left: -90px;
-    }
-    button.owl-next {
-        margin-right: -90px;
-    }
-    .blog-main {
-        padding-right: 40px;
-    }
-    .blog-main-content .services-info h6 {
-        min-height: auto;
-    }
-    .office-location-single h4  {
-        font-size: 30px;
-        margin-bottom: 24px;
-    }
-    .testimonila-title h4 { 
-        font-size: 34px;
-    }
-    .footer-busniss-icon {
-        width: 70px;
-        min-width: 70px;
-    }
-    .footer-logobox ul li {
-        max-width: 280px;
-    }
-    .footer-busniss-info .footer-logobox p, .footer-logobox h6 {
-        font-size: 26px;
-        line-height: 40px;
-    }
-    .phone-btn {
-        font-size: 24px;
-    }
-    .menu-navbar ul li a {
-        font-size: 20px;
-        padding: 0px 8px;
-        padding-bottom: 13px;
-    }
-    .project-complated-counter {
-        gap: 30px;
-    }
-    .complated-counter-item {
-        width: calc((100% - 60px) / 3);
-        padding-right: 10px;
-    }
-    .team-name-box span {
-        font-size: 14px;
-        line-height: 22px;
-        }
-    .counter-home .counter-number-count span, .counter-number span {
-        font-family: "Bebas Neue", sans-serif;
-        padding: 12px 5px;
-        font-size: 30px;
-        line-height: 20px;
-        width: 23px;
-        height: 42px;
-        font-weight: 700;
-        color: var(--white);
-        display: inline-block;
-    }
-} 
- @media only screen and (max-width: 1500px) {
-    .custom-py {
-        padding-left: 60px;
-        padding-right: 60px;
-      }
-      .custom-py {
-        padding-left: 60px;
-        padding-right: 60px;
-      }
-      .menu-navbar ul {
-        gap: 20px;
-        margin-right: 24px;
-    }      
-   
-    .services-info h6 {
-        font-size: 16px;
-        line-height: 20px;
-        min-height: 42px;
-    }
-    .your-team-info {
-        width: 46%;
-    }
-    .your-team-form {
-        width: 54%;
-    }
-    .your-team-info ul li {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .staff-info {
-        padding-left: 51px;
-    }
-    .staff-info h3 {
-        font-size: 45px;
-        line-height: 58px;
-    }
-    .staff-info p {
-        margin-bottom: 30px;
-    }
-
-    .blog-main {
-        width: 72.5%;
-    }
-    .sidebar-box {
-          width:27.5%
-    }
-
-    .blog-main .outsourcing-innder-title h3 {
-        font-size: 18px;
-    }
-    .blog-main .outsourcing-title h2 {
-        font-size: 22px;
-        line-height: normal;
-    }
-    .blog-main .staffing-btn-box .btn {
-        height:auto;
-        font-size: 18px;
-        padding: 7px 16px;
-        font-size: 16px;
-    }
-    .blog-info-btn a {
-        font-size: 12px;
-    }
-    .blog-item-text h3 {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    .blog-item-text p {
-        font-size: 16px;
-        line-height: 24px;
-        display: -webkit-box;
-        -webkit-line-clamp: 5;
-        -webkit-box-orient: vertical;  
-        overflow: hidden;
-    }
-    .blog-bottom-box .btn {
-        font-size: 18px;
-        min-width: 167px;
-        height: 48px;
-    }
-    .blog-item-box-wrap {
-        gap:24px
-    }
-    .blog-item-btnbox {
-        gap: 20px;
-    }
-    .address-wrap-box {
-        gap: 50px;
-    }
-    .address-info {
-        padding-right: 50px;
-    }
-    .address-info ul li a  {
-        font-size: 24px;
-    }
-    .address-info h2 {
-        font-size: 32px;
-    }
-    .counter-number-count span,
-    .number-speak-2 .counter-number span {
-        font-size: 22px;
-        width: 22px;
-        height: 36px;
-    }
-    .footer-busniess-item {
-        border: 2px solid var(--yellow);
-        border-radius: 15px;
-        padding: 24px 20px 20px 20px;
-    }
-    .solution-info h3 {
-        font-size: 22px;
-    }
-    .team-name-box h6 {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .our-team-content {
-        gap:30px 20px;
-    }
-    .our-team-item {
-        width: calc((100% - 40px) / 3);
-    }
-
-    /* ======deskop-view max width====== */
-
-
-    .container {
-        max-width: 1190px;
-    }
-    .logo {
-        width: 190px;
-    }
-    .phone-btn {
-        font-size: 20px;
-    }
-    .menu-navbar ul li a {
-        font-size: 18px;
-        padding: 0px 8px;
-        padding-bottom: 12px;
-    }
-    .menu-navbar ul {
-        gap: 18px;
-    }
-    .service-box span {
-        font-size: 13px;
-    }
-    .top-batton-box ul li a {
-        font-size: 12px;
-        border-radius: 2px;
-        padding: 2px 14px;
-    }
-    .partner-login a {
-        font-size: 14px;
-        gap: 7px;
-    }
-    .banner-content h1 {
-        font-size: 45px;
-    }
-    .banner-content h4 {
-        font-size: 32px;
-        padding-bottom: 56px;
-    }
-    .banner-content h4 span::after {
-        width: 80px;
-        bottom: -45px;
-    }
-    .watch-btn.btn img {
-        margin-right: 8px;
-        width: 40px;
-    }
-    .banner-area {
-        padding-top: 244px;
-    }
-    .scroller {
-        height: 57px; /* Adjust height to match the new text size */
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-      }
-      
-      .scroller > .scroll-in {
-        position: absolute;
-        top: 0;
-        animation: slide 12s infinite;
-        font-weight: bold;
-      }
-      
-      @keyframes slide {
-        0%, 16.67% {
-           top: -10px; /* First item in the middle */
-        }
-        19.67%, 33.33% {
-           top: -67px; /* Move to second item */
-        }
-        36.33%, 50% {
-           top: -124px; /* Move to third item */
-        }
-        53%, 66.67% {
-           top: -181px; /* Move to fourth item */
-        }
-        69.67%, 83.33% {
-           top: -238px; /* Move to fifth item */
-        }
-        86.33%, 96.67% {
-           top: -295px; /* Move to sixth item */
-        }
-        100% {
-           top: -10px; /* Reset to the first item */
-        }
-      }
-      
-    .banner-content .scroll-in span {
-        font-size: 45px; /* Adjusted font size */
-    }
-    .banner-content h4 span {
-        font-size: 40px;
-    }      
-
-    .button-box {
-        padding-bottom: 190px;
-    }
-    .header-top {
-        height: 40px;
-    }
-    .right-arrow {
-        right: -100px;
-        max-width: 89px;
-    }
-    .banner-area::before {
-        bottom: -32px;
-    }
-    .outsourcing-services {
-        padding-top: 10px;
-    }
-    .outsourcing-title h2 {
-        font-size: 38px;
-        line-height: 52px;
-    }
-    .outsourcing-icon {
-        width: 110px;
-        min-width: 110px;
-    }
-    .services-icon {
-        max-width: 66px;
-    }
-    .services-info h6 {
-        font-size: 14px;
-        line-height: 18px;
-        min-height: 38px;
-    }
-    .services-top {
-        height: 100px;
-    }
-    .outsourcing-services-box {
-        gap: 12px;
-    }
-    .services-item {
-        width: calc((100% - 84px) / 8);
-    }
-    .secure-delivery-list-bg ul li {
-        font-size: 18px;
-        padding-left: 34px;
-    }
-
-    .secure-delivery-list-bg ul li::before {
-        width: 12px;
-        height: 12px;
-    }
-    .secure-delivery-list-bg ul {
-        gap: 0 15px;
-    }
-    .testimonials-box-full .client-text-quote h5 {
-        font-size: 23px;
-        line-height: 30px;
-    }
-    .testimonials-box-full .client-btn span {
-        max-width: 217px;
-    }
-    .endocrine-icon::before {
-        width: 240px;
-        height: 160px;
-        bottom: -25px;
-        left: 0px;
-    }
-    .client-photo {
-        width: 330px;
-        min-width: 330px;
-        margin-top: auto;
-    }
-    .endocrine-icon img {
-        max-width: 190px;
-    }
-    .common-title h2 {
-        font-size: 40px;
-        font-weight: 700;
-        line-height: normal;
-    }
-    .common-title {
-        padding: 12px 35px;
-    }
-    .work-it-info {
-        padding: 34px 20px;
-        padding-top: 30px;
-    }
-    .works-content-item h4 {
-        font-size: 18px;
-        font-weight: 600;
-    } 
-    .works-item-count {
-        width: 73px;
-        height: 87px;
-        margin-top: -52px;
-    }
-    .cost-saving-container {
-        padding: 40px 40px;
-        position: relative;
-    }
-    .cost-saving-info p {
-        font-size: 20px;
-        line-height: 30px;
-        margin-bottom: 0px;
-    }
-    .cost-saving-btn .date-btn.btn {
-        height: 48px;
-        padding: 5px 20px;
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .we-different-info {
-        width: 67.4%;
-    }
-    .different-btn .date-btn.btn {
-        min-width: 270px;
-        height: 48px;
-        padding: 10px 10px;
-        font-size: 16px;
-    }
-    .different-btn .date-btn.btn img {
-        width: 30px;
-    }
-    .different-btn-box {
-        padding: 15px 18px 15px 26px;
-
-    }
-    .different-btn-box h4 {
-        font-size: 20px;
-        line-height: 140%;
-    }
-    .we-different-info p {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .we-different-info .client-text-quote h5 {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .btn {
-        height: 50px;
-        font-size: 18px;
-    }
-    .btn img {
-        width: 20px;
-    }
-    .client-photo {
-        width: 290px;
-        min-width: 290px;
-    }
-    .testimonials-area .client-text-quote h5 {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .common-btn a {
-        height: 50px;
-        font-size: 16px;
-    }
-    .client-text {
-        padding-left: 10px;
-    }
-    .your-team-info h3 {
-        font-size: 28px;
-        line-height: 44px;
-    }
-    .your-team-info ul li {
-        font-size: 17px;
-        line-height: 26px;
-        padding-left: 30px;
-    }
-    .your-team-info ul li::before {
-        width: 21px;
-        height: 20px;
-        top: 13px;
-        background-size: cover;
-    }
-    .jog-seekeer-link span {
-        font-size: 35px;
-        line-height: 45px;
-    }
-    .jog-seeker-icon {
-        width: 130px;
-        min-width: 130px;
-        height: 130px;
-    }
-    .jog-seeker-icon img {
-        max-width: 68px;
-    }
-    .job-seeker-bg {
-        padding: 35px 40px;
-        border-radius: 16px;
-    }
-    .staff-info h3 {
-        font-size: 34px;
-        line-height: 46px;
-        font-weight: 600;
-    }
-    .staff-info p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .teamextend-photo {
-        width: 300px;
-        min-width: 300px;
-        margin-top: -80px;
-    }
-    .teamextend-info {
-        padding: 50px 0px 0px 40px;
-        width: 77%;
-    }
-    .teamextend-text h3 {
-        font-size: 22px;
-        line-height: 33px;
-    }
-    .teamextend-text p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .video-play-btn {
-        width: 125px;
-        min-width: 125px;
-        height: 125px;
-    }
-    .teamextend-bg {
-        padding: 0px 42px 94px 50px;
-    }
-    .teamextend-area .common-title {
-        padding-left: 120px;
-    }
-    .review-item {
-        padding: 34px 20px 24px 20px;
-    }
-    .review-info::before {
-        background-size: cover;
-        width: 30px;
-        height: 20px;
-    }
-    .quote-icon {
-        width: 30px;
-    }
-    .review-title h5 {
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .review-info p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .counter-number-count span,
-    .counter-number span {
-        font-size: 24px;
-        width: 20px;
-        height: 33px;
-    }
-    .numbers-counter-wrap {
-        padding: 40px 18px 22px 18px;
-    }
-    .prior-authorization-title h3 {
-        font-size: 36px;
-    }
-    .author-icon {
-        max-width: 50px;
-    }
-    .prior-authorization-title {
-        height: 95px;
-    }  
-    .prior-authorization-info::before {
-        height: 95px;
-    }  
-    .authorrization-info-box {
-        padding: 70px 50px 40px 70px;
-        margin-top: -50px;
-    }
-    .prior-authorization-info p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .prior-authorization-top h3 {
-        padding-bottom: 15px;
-        font-size: 32px;
-        font-weight: 700;
-    }
-    
-    .slider-info h4 {
-        font-size: 18px;
-        padding-top: 20px;
-    }
-    .second-team-form .your-team-info h3 {
-        font-size: 32px;
-    }
-    .second-team-form .your-team-info p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .footer-logobox ul {
-        gap: 30px;
-    }
-    .footer-busniss-info .footer-logobox p, .footer-logobox h6 {
-        font-size: 22px;
-        line-height: 34px;
-    }
-    .footer-logobox ul li {
-        max-width: 240px;
-    }
-    .footer-logobox ul li {
-        max-width: 240px;
-    }
-    .footer-busniss-info h3 {
-        font-size: 19px;
-        font-weight: 500;
-    }
-    .footer-area p {
-        font-size: 16px;
-        line-height: 22px;
-        font-weight: 300;
-        margin-bottom: 20px;
-    }
-    .footer-busniess-item {
-        gap:15px
-    }
-    .about-widget-inner {
-        max-width: 458px;
-    }
-    .copyright-wrap span {
-        font-weight: 400;
-    }
-    .footer-logo {
-        max-width: 220px;
-    }
-    .media-link ul {
-        gap: 5px;
-    }
-
-    .inner-banner {
-        padding-top: 110px;
-    }
-    .title-inner-icon {
-        max-width: 100px;
-    }
-    .inner-banner .banner-content h1 {
-        font-size: 45px;
-        line-height: 50px;
-    }
-    .blog-main .outsourcing-innder-title h3 {
-        font-size: 16px;
-    }
-    .blog-main .outsourcing-title {
-        padding: 18px 15px;
-    }
-    .blog-item-photo {
-        width: 290px;
-        min-width: 290px;
-    }
-    .sidebar-box {
-        width: 26.5%;
-    }
-    .blog-main {
-        width: 74.5%;
-    }
-    .blog-main {
-        padding-right: 30px;
-    }
-    .blog-info-btn a {
-        font-size: 11px;
-    }
-    .blog-item-text h3 {
-        font-size: 20px;
-        line-height: 28px;
-        padding: 15px 0px 10px 0px;
-    }
-    .blog-item-text p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-    .blog-item-box-wrap {
-        padding-top:40px;
-        gap:18px;
-    }
-    .blog-bottom-box .btn {
-        font-size: 16px;
-        min-width: 160px;
-        height: 42px;
-    }
-    .inner-banner .date-btn.btn {
-        font-size: 13px;
-        padding: 0px 26px;
-    }
-    .sidebar-category-box {
-        margin-top: 20px;
-    }
-    .category-list ul li {
-        padding: 7px 0px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .sidebar-category-box .services-info {
-        min-height: 60px;
-    }
-
-    .information-video-single {
-        padding: 10px 0px;
-        border-bottom: 1px solid #b1b1b180;
-    }
-    .information-video-photo {
-        width: 110px;
-        min-width: 110px;
-    }
-    .video-single-item p {
-        line-height: 20px;
-    }
-    .video-single-item {
-        gap: 10px;
-    }
-    .your-team-form button.date-btn {
-        margin-top: 10px;
-    }
-    .inner-banner-content {
-        padding-top: 45px;
-        padding-bottom: 72px;
-    }
-    .service-contnet-wrap img {
-        margin-bottom: 20px;
-    }
-    .service-contnet-wrap h2 {
-        font-size: 24px;
-    }
-    .service-contnet-wrap h3 {
-        font-size: 22px;
-    }
-    .service-contnet-wrap h4 {
-        font-size: 20px;
-    }
-    .service-contnet-wrap h5 {
-        font-size: 18px;
-    }
-    .address-info h2 {
-        font-size: 28px;
-    }
-    .address-info ul li a {
-        font-size: 18px;
-    }
-    .address-info ul li a img {
-        width: 23px;
-    }
-    .address-info ul {
-        padding-left: 20px;
-    }
-    .contant-form-box {
-        padding: 40px 40px;
-    }
-    .contant-form-box h4 {
-        font-size: 24px;
-        margin-bottom: 34px;
-    }
-    .category-list ul li a img {
-        width: 20px;
-    }
-    .category-list ul li a {
-        display:flex;
-        gap:8px;
-    }
-    .office-location-box {
-        padding: 60px 50px;
-        margin-top: 60px;
-        gap: 48px;
-    }
-    .office-location-single h4 {
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-    .office-location-single p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .hired-apply-box h3 {
-        font-size: 34px;
-        padding-bottom: 30px;
-    }
-    .hired-apply-box {
-        padding: 50px 26px;
-    }
-    .our-employes-item, .employes-slider-2 .our-employes-item {
-        height: 90px;
-    }
-    .number-speak-2 {
-        padding-top:60px;
-    }
-    .counter-number-count span,
-    .number-speak-2 .counter-number span {
-        font-size: 20px;
-        width: 20px;
-        height: 32px;
-    }
-    .number-speak-2 .numbers-counter-item h5 {
-        padding-bottom: 4px;
-        font-size: 20px;
-    }
-    .our-services-box .service-contnet-wrap img {
-        margin-bottom: 40px;
-    }
-    .services-element-box {
-        padding: 20px 20px 0px 0px;
-    }
-    .our-services-box .services-icon {
-        width: 135px;
-        min-width: 135px;
-        height: 135px;
-    }
-    .our-services-box .services-icon img {
-        max-width: 70px;
-    }
-    .services-element-box .services-element-info h5 {
-        margin-bottom: 10px;
-    }
-    .services-element-box .services-element-info p  {
-        font-size: 15px;
-        line-height: 22px;
-        margin-bottom:15px;
-    }
-    .complated-counter-item h2 {
-        font-size: 40px;
-        margin-bottom: 0px;
-        line-height: 50px;
-    }
-    .project-complated-counter {
-        gap: 20px;
-    }
-
-    .complated-counter-item {
-        width: calc((100% - 40px) / 3);
-        padding-right: 0px;
-
-    }
-    .complated-counter-item p {
-        line-height: 22px;
-    }
-    .case-study-title h2 {
-        font-size: 44px;
-    }
-    .solution-info h3 {
-        font-size: 22px;
-    }
-    .case-study-title h2 {
-        font-size: 38px;
-        padding-top: 10px;
-    }
-    .client-review-video {
-        margin-bottom: 14px;
-    }
-    .read-leaer-more {
-        font-size: 16px;
-       line-height: 1;
-    }
-    .client-review-info p {
-        font-size: 15px;
-        line-height: 22px !important;
-    }
-    .people-review-box .review-content {
-        gap: 20px;
-    }
-
-    .pepole-reviw-item-innner .review-item {
-        width: calc((100% - 20px) / 2);
-    }
-
-    .case-study-title.team-title h2 {
-        padding-top: 0px;
-    }
-    .team-title  {
-        padding: 30px;
-    }
-    .our-team-content {
-        padding-top: 30px;
-    }
-    .our-team-wrap {
-        padding-bottom: 0px;
-    }
-    .team-name-box h6 {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .team-name-box span {
-        font-size: 13px;
-        line-height: 22px;
-    }
-    .our-team-content p {
-        font-size: 15px;
-        line-height: 22px;
-    }
-    .empolyees-testimony-slider .inner-box {
-        margin-bottom: 20px;
-    }
-
-}
-@media only screen and (max-width: 1300px) {
-    .outsourcing-services-box {
-        gap: 10px;
-    }
-    .services-item {
-        width: calc((100% - 70px) / 8);
-    }
-    
-    .your-team-form {
-        width: 60%;
-    }
-    .your-team-info {
-        width: 40%;
-    }
-    .teamextend-info {
-        padding: 60px 0px 0px 50px;
-    }
-    .teamextend-area .watch-btn.btn {
-        margin-top: 40px;
-    }
-    .video-play-btn {
-        width: 150px;
-        min-width: 150px;
-        height: 150px;
-    }
-    .teamextend-text h3 br {
-        display: none;
-    }
-    .teamextend-text h3 {
-        font-size: 32px;
-        line-height: 42px;
-    }
-    .numbers-counter-wrap {
-        gap: 10px;
-    }
-    .slider-info h4 {
-        font-size: 18px;
-        padding-top: 14px;
-    }
-    .blog-item-photo {
-        width: 350px;
-        min-width: 350px;
-    }
-    .sidebar-category-box .services-info {
-        min-height: 60px;
-    }
-   .testimonial-title-logo img {
-      max-width: 180px;
-   }
-   .testimonila-title h4 {
-        font-size: 30px;
-    }
-    .testimonial-title-logo {
-        gap: 25px;
-        min-width: 385px;
-        width: 385px;
-    }
-    .works-content-item h4 {
-        font-size: 22px;
-    }
-    .menu-navbar ul {
-        gap: 10px;
-        margin-right: 20px;
-    }
-     
-    .testimonials-box-full .client-text-quote h5 {
-        font-size: 28px;
-        line-height: 40px;
-    }
-    .endocrine-icon::before {
-        width: 202px;
-        height: 142px;
-        bottom: -30px;
-        left: 56px;
-    }
-    .endocrine-icon {
-        max-width: 230px;
-    }
-    .testimonials-box-full .common-btn a {
-        font-size: 20px;
-    }
-    .error-content-photo {
-        max-width: 500px;
-    }
-    .error-page-area {
-        padding-top:130px;
-    }
-    .error-page-info h2 {
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .error-page-info {
-        padding-top: 10px;
-    }
-    .error-page-info p {
-        font-size: 16px;
-    }
-    .services-element-box {
-        padding-right: 0px;
-    }
-    .our-solutions-content {
-        gap: 30px 30px;
-    }
-    .our-solutions-item {
-        width: calc((100% - 30px) / 2);
-    }
-    .solution-info p {
-        font-size: 16px;
-        margin-bottom: 10px;
-        padding-right: 10px;
-    }
-    .solution-info .btn {
-        height: 48px;
-        font-size: 16px;
-        padding: 2px 32px;
-    }
-
-     .blog-main {
-        width: 70.5%;
-    }
-    .sidebar-box {
-          width:29.5%
-    }
-    
-    .pepole-reviw-item-innner .review-info p {
-        padding-right: 46px;
-    }
-   
-}
-
-@media only screen and (max-width: 1300px) {
-    .logo {
-        width: 200px;
-    }
-    .custom-py {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .phone-btn {
-        font-size: 16px;
-    }
-    .menu-navbar ul li a {
-        font-size: 16px;
-        padding: 0px 5px;
-        padding-bottom: 12px;
-    }
-    .services-info h6 {
-        min-height: 60px;
-        word-break: break-all;
-    }
-    .services-icon {
-        max-width: 54px;
-    }
-    .services-top {
-        height: 84px;
-    }
-    .outsourcing-title h2 {
-        font-size: 38px;
-        line-height: 60px;
-    }
-    .outsourcing-icon {
-        width: 114px;
-        min-width: 114px;
-    }
-    .secure-delivery-list-bg ul {
-        gap: 10px 25px;
-        flex-wrap: wrap;
-    }
-    .client-text-quote h5 {
-        font-size: 28px;
-        line-height: 40px;
-        margin-bottom: 0px;
-    }
-    .testimonials-box-full .client-btn.d-flex.align-items-center {
-        padding-top: 12px;
-    }
-    .we-different-photo {
-        max-width: 559px;
-    }
-    .jog-seekeer-link span {
-        font-size: 30px;
-        line-height: 45px;
-    }
-    .jog-seeker-icon {
-        width: 150px;
-        min-width: 150px;
-        height: 150px;
-    }
-    .teamextend-photo {
-        margin-top: -43px;
-    }
-    .teamextend-area .common-title {
-        margin-bottom: 65px;
-        padding-left: 0;
-    }
-    .video-play-btn {
-        width: 130px;
-        min-width: 130px;
-        height: 130px;
-    }
-    .review-content {
-        flex-wrap: wrap;
-    }
-    .review-item {
-        width: calc((100% - 20px) / 2);
-    }
-    .numbers-counter-wrap {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px 10px;
-    }
-    .numbers-counter-single {
-        text-align: center;
-        width: calc((100% - 30px) / 4);
-    }
-
-    .prior-authorization-info {
-        width: 68%;
-    }
-    .prior-authorization-title h3 {
-        font-size: 34px;
-    }
-    .prior-authorization-title {
-        width: 600px;
-        height: 95px;
-        padding: 23px 30px 28px 0px;
-    }
-    .prior-authorization-info::before {
-        height: 95px;
-        right: 99%
-    }
-    .authorrization-info-box {
-        padding: 60px 30px 40px 60px;
-        margin-top: -45px;
-    }
-    .prior-authorization-top h3 {
-        font-size: 30px;
-    }
-    .prior-authorization-top p {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .author-icon {
-        max-width: 40px;
-    }
-    .prior-authorization-info p {
-        font-size: 20px;
-        line-height: 32px;
-    }
-    .second-team-form .your-team-form {
-        width: 58%;
-    }
-    .second-team-form .your-team-info {
-        padding-right: 24px;
-        width: 42%;
-    }
-    .media-link ul {
-        gap: 8px;
-    }
-    .footer-logo {
-        max-width: 210px;
-    }
-    .about-widget {
-        padding-right: 40px;
-    }
-    .usefull-list-widget ul li  {
-        font-size: 16px;
-    }
-    .blog-bottom-box .btn {
-        font-size: 16px;
-        min-width: 120px;
-        height: 38px;
-        padding: 10px;
-    }
-    .autor-box.d-flex.align-items-center {
-        gap: 6px;
-    }
-    .autor-box span {
-        font-size: 16px;
-        color: var(--black);
-    }
-    .blog-item-photo {
-        width: 320px;
-        min-width: 320px;
-    }
-    .blog-item-text h3 {
-        font-size: 22px;
-        line-height: 28px;
-        padding: 14px 0px 10px 0px;
-    }
-    .blog-item-text p {
-        line-height: 22px;
-    }
-    .autor-box img {
-        width: 30px;
-    }
-    .blog-main .outsourcing-title h2 {
-        font-size: 18px;
-    }
-    .blog-main .outsourcing-innder-title h3 {
-        font-size: 16px;
-    }
-    .staffing-btn-box {
-        flex-direction: column;
-    }
-    .blog-main .staffing-btn-box .btn {
-        width: fit-content;
-    }
-    .outsourcing-title {
-        align-items: start !important;
-    }
-    .staffing-btn-box {
-        gap: 8px;
-    }
-    .sidebar-category-box .services-icon {
-        max-width: 50px;
-    }
-    .blog-main {
-        padding-right: 20px;
-    }
-    .inner-banner .banner-content h1  {
-        font-size: 38px;
-    }
-    .office-location-box {
-        padding: 55px 30px;
-    }
-    .contact-vidoe-box .slider-info h4 {
-        font-size: 22px;
-        line-height: 30px;
-        padding-top: 10px;
-    }
-    .hired-apply-box h3 {
-        font-size: 32px;
-        padding-bottom: 40px;
-    }
-    .outsourcing-services-box {
-        flex-wrap: wrap;
-    }
-
-    .services-item {
-        width: calc((100% - 30px) / 4);
-    }
-    .client-photo {
-        width: 280px;
-        min-width: 280px;
-        margin-top: auto;
-    }
-    .testimonials-box-full .client-text-quote h5 {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .testimonials-box-full .client-btn span {
-        max-width: 186px;
-        font-size: 14px;
-         padding-right: 20px;
-    }
-    .testimonials-box-full .common-btn a {
-        font-size: 16px;
-        height: 42px;
-    }
-    .endocrine-icon {
-        max-width: 180px;
-    }
-    .endocrine-icon::before {
-        width: 98px;
-        height: 66px;
-        bottom: -12px;
-        left: 52px;
-    }
-    .footer-busniss-info h3 {
-        font-size: 20px;
-    }
-    .footer-busniss-info .footer-logobox p, .footer-logobox h6 {
-        font-size: 22px;
-        line-height: 32px;
-    }
-    .footer-busniss-icon {
-        width: 50px;
-        min-width: 50px;
-    }
-    .footer-busniess-item {
-        gap: 10px;
-        width: calc((100% - 40px) / 2);
-    }
-    .footer-busniess-box {
-        gap: 20px;
-       
-    }
-    .top-batton-box ul li a {
-        padding: 2px 6px
-    }
-    .top-batton-box ul {
-        gap: 5px;
-    }
-    .employess-use-softwares h2 {
-        font-size: 20px !important;
-    }
-    .employess-use-softwares {
-        padding: 20px;
-    }
-    .employess-use-softwares .title-icon {
-        width: 45px;
-    }
-    .employess-use-softwares .common-title {
-        margin-bottom: 20px;
-    }
-       .case-study-title h2 {
-        font-size: 38px;
-    }
-
-    .team-name-box h6 {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    
+  .manufacturing-item h4 {
+    font-size: 22px;
+  }
+  .extensive-text-content {
+    width: 42%;
+  }
+  .extensive-text-content h2 {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .extensive-text-content p {
+      margin-bottom: 40px;
+  }
+  .voices-experience-info {
+      padding: 30px 24px 24px 24px;
+  }
+  .voices-experience-info h4 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .voices-experience-info p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .craftsmanship-area .common-title h2 {
+      font-size: 54px;
+      line-height: 65px;
+      margin-bottom: 40px;
+  }
+  .our-extensive-photo iframe {
+    width: 100% !important;
+    height: 540px !important;
+  }
+  .contact-info ul li a, .contact-info ul li {
+    font-size: 22px;
+  }
+  .contact-info ul {
+    gap:40px;
+  }
+  .social-media-link ul li a {
+      color: var(--black);
+      font-size: 35px;
+  }
+  .social-media-link ul {
+    gap:30px;
+  }
+ .location-map {
+    min-height: auto;
+    padding-bottom: 70px;
+  }
+  .blog-slider .owl-next {
+    margin-right: -90px;
+  }
+  .blog-slider .owl-prev {
+    margin-left: -90px;
+  }
+  .banner-area {
+      margin-top: 80px;
+  }
+  /* .banner-info {
+    min-height: 500px;
+  } */
+  .inner-banner .banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .banner-info-text h1 {
+    padding-bottom: 40px;
+  }
+  
+  .impact-factors-title h2 {
+    font-size: 100px;
+  }
+  .description-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .product-photo {
+    max-width: 500px;
+  }
+  .impact-factors-info {
+    padding: 40px;
+  }
+  .impact-factors-info h3 {
+      font-size: 38px;
+      line-height: 46px;
+      padding-bottom: 26px;
+  }
+  .leather-story-info p {
+      font-size: 22px;
+      line-height: 32px;
+      padding-bottom: 25px;
+  }
+  .secrscription-white {
+    padding-top: 0px;
+  }
+  .aboutus-area .common-title h2  {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .about-info-text {
+      width: 56%;
+      padding-left: 70px;
+  }
+  .about-info-photo {
+      width: 44%;
+  }
+  .about-info-text h2 a, .about-info-text h2 {
+      font-size: 38px;
+      line-height: 50px;
+      margin-bottom: 12px;
+  }
+  .about-info-text h4 {
+      line-height: 34px;
+      font-size: 22px;
+  }
+  .about-info-text h6,
+  .about-info-text p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .aboutus-area .common-title {
+      padding-top: 60px;
+      padding-bottom: 40px;
+  }
+  .about-information-box  {
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+  }
+  .our-member-content {
+    padding-bottom: 40px;
+  }
+  .our-member-content .common-title h6, .our-member-content .common-title h4 {
+    padding-bottom: 12px;
+  }
+  .review-content-area .our-member-content {
+      padding: 60px 75px;
+  }
+  .price-list-item {
+    gap:20px;
+  }
+  .price-list-item li {
+    padding: 18px 8px;
+    width: calc((100% - 60px) / 4);
+    font-size: 15px;
+  }
+  .testimonials-video-box {
+      min-width: 250px;
+      width: 250px;
+      height: fit-content;
+  }
+  .testimonials-info-box h3 {
+    font-size: 24px;
+  }
+  .testimonials-info-box p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .testimonials-info-box {
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+  .banner-slider-item {
+    height: 710px;
+  }
+  .goods-manufacturing-area .common-title p {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 0px;
+  }
 }
 
 
-@media only screen and (max-width: 1100px) {
-    .your-team-form button.date-btn {
-        height: auto;
-    }
-    .logo {
-        width: 160px;
-    }
-    .menu-navbar ul {
-        gap:10px;
-    }
-    .banner-content h1 {
-        font-size: 50px        ;
-    }
+@media screen and (max-width: 1500px) {
+  .container {
+    max-width: 1100px;
+  }
 
-    .outsourcing-services-box {
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-    .client-photo {
-        width: 260px;
-        min-width: 260px;
-        margin-top: auto;
-    }
-    .client-text-quote h5 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 0px;
-    }
-    .common-btn a {
-        font-size: 18px;
-        background: var(--primary);
-        height: 52px;
-        padding: 10px 26px;
-    }
-    .work-it-info {
-        padding: 35px 20px;
-        padding-top: 30px;
-    }
-    .works-item-count span {
-        margin-top: 13px;
-        max-width: 40px;
-    }
-    .works-item-count {
-        width: 80px;
-        height: 96px;
-        margin-top: -52px;
-    }
-    .works-content-item h4 { 
-        font-size: 20px;
-    }
-    .works-content-item p  {
-        font-size: 18px;
-    }
-    .common-title h2 {
-        font-size: 35px;
-        line-height: 46px;
-    }
-    .cost-saving-container {
-        padding: 58px 32px;
-    }
-    .cost-saving-content.d-flex {
-        gap: 40px;
-    }
-    .cost-saving-info p {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    .we-different-photo {
-        max-width: 600px;
-        position: inherit;
-        margin: 0 auto;
-    }
-    .we-different-info {
-        width: 100%;
-    }
-    .we-different-area .date-btn.btn {
-        width: 100%;
-    }
-    .numbers-counter-single {
-        text-align: center;
-        width: 38%;
-    }
-    button.owl-prev {
-        margin-left: -80px;
-    }
-    button.owl-next {
-        margin-right: -80px;
-    }
-    .second-team-form .your-team-form button.date-btn {
-        padding: 10px 10px;
-    }
-    .blog-main {
-        padding-right: 0px;
-        width: 100%;
-    }
-    .blog-main-content  {
-      flex-direction: column;
-    }
-    .sidebar-box {
-        width: 100%;
-        min-width:100%;
-        padding-top: 50px;
-    }
-    .blog-item-box-wrap {
-        padding-top: 50px;
-    }
-    .blog-area {
-        padding-top: 50px;
-    }
-    .endocrine-icon::before {
-        width: 98px;
-        height: 66px;
-        bottom: -12px;
-        left: 52px;
-    }
-    .people-review-box {
-        padding-bottom: 60px;
-    }
-    .showcase-our-services .prior-authorization-title h3 {
-          font-size: 20px;
-    }
+  .menu-navbar ul {
+    gap: 40px;
+  }
+
+  .logo {
+    max-width: 268px;
+  }
+
+  .header {
+    padding: 18px 0px;
+  }
+
+  .manufacturing-item h4 {
+    font-size: 20px;
+  }
+
+  .common-title h2 {
+    font-size: 38px;
+  }
+
+  .common-title h4 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .artistry-behind-wrap {
+    gap: 50px
+  }
+
+  .artistry-behind-item {
+    width: calc((100% - 50px) / 2);
+  }
+  .our-extensive-range {
+    padding: 80px 0;
+    min-height: auto;
+  }
+
+  .extensive-text-content h2 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .extensive-text-content {
+    padding: 20px 0px;
+  }
+  .our-leather-brand-area .common-title ul li {
+    font-size: 20px;
+    background-size: 35px auto;
+  }
+  .voices-experience-info p {
+    margin-bottom: 10px;
+  }
+  .contant-us-form {
+    padding: 50px;
+  }
+  .contant-us-form h3 {
+    padding-bottom: 60px;
+  }
+  .form-group {
+      padding-bottom: 30px;
+  }
+  .form-group label {
+      font-size: 16px;
+      line-height: 22px;
+      padding-bottom: 10px;
+  }
+  .location-map {
+    padding-top: 0px;
+  }
+  .blog-item-info {
+      padding-top: 20px;
+  }
+  .blog-slider .owl-next {
+    margin-right: -65px;
+  }
+  .blog-slider .owl-prev {
+    margin-left: -65px;
+  }
+  .banner-area {
+      margin-top: 74px;
+  }
+  .banner-info-text h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .banner-info-text {
+      max-width: 500px;
+  }
+  .banner-info-text .work-button {
+      width: 230px;
+      height: 54px;
+  }
+  .category-list-area {
+    padding-bottom: 80px;
+  }
+  .impact-factors-info {
+      padding: 50px;
+  }
+  .impact-factors-info h3 {
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 22px;
+  }
+  .impact-factors-info p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .sustainable-item-box {
+      padding: 60px 50px;
+  }
+  .ustainable-item-info {
+      padding: 0px 0px 0px 40px;
+  }
+  .ustainable-item-info h6 {
+    font-size: 14px;
+  }
+  .ustainable-item-info h6::after {
+    top:7px;
+  }
+  .ustainable-item-info h4 {
+      padding-bottom: 20px;
+      font-size: 22px;
+  }
+  .ustainable-item-info p {
+      margin-bottom: 0px;
+      font-size: 16px;
+      line-height: 26px;
+  }
+  .leather-story-info {
+      padding-left: 40px;
+  }
+  .leather-story-info p {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 18px;
+  }
+  .review-content-area h6,
+  .review-content-area .menmber-name h4 {
+      line-height: 30px;
+  }
+  .price-list-item {
+    gap:15px;
+  }
+  .price-list-item li {
+    padding: 15px 6px;
+    width: calc((100% - 45px) / 4);
+    font-size: 14px;
+  }
+  .testimonials-info-box p {
+      font-size: 15px;
+      line-height: 22px;
+      margin-bottom: 0px;
+  }
+  .testimonials-video-box {
+      min-width: 230px;
+      width: 230px;
+      height: fit-content;
+  }
+  .testimonials-info-box h3 {
+      font-size: 20px;
+  }
+  .testimonials-info-box span {
+    padding-bottom: 16px;
+  }
+  .banner-slider-item {
+    height: 650px;
+  }
+  .banner-slider-item img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
-@media only screen and (max-width: 991px) {
-    .faq-contnet-wrap .faq-title {
-       font-size: 26px;
-       margin-top: 19px;
-    }
-    .accordion-header h6 {
-       font-size: 17px;
-       padding: 12px 20px 10px 0px;
-    }
-    .accordion-header h6::after {
-       top:14px;
-    }
-    .menu-navbar {
-        display: none !important;
-    }
-    .custom-py {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+@media screen and (max-width: 1300px) {
+  .our-extensive-range {
+    padding-left: 75px;
+  }
+  .extensive-reverse.our-extensive-range {
+    padding-right: 75px;
+    padding-left: 0px;
+  }
 
-    .phone-mail-box {
-        display: none !important;
-    }
-    .humbarger-menu {
-        display: block;
-        margin-bottom: -5px;
-    }
-    nav.menu-navbar {
-        display: none;
-    }
-    .phone-mail-box {
-        display: none !important;
-    }
-    .nav-toggler {
-        border: none;
-        outline: none;
-        width: 34px;
-        padding: 0px;
-        background: none;
-        position: relative;
-        z-index: 33;
-      }
-      .nav-toggler span {
-        width: 100%;
-        margin-bottom: 8px;
-        height: 3px;
-        border-radius: 10px;
-        display: block;
-        background:var(--primary);
-      }
-      .nav-toggler span:last-child {
-        margin-bottom: 0px;
-      }
-      a.slicknav_btn.slicknav_collapsed {
-        display: none;
-      }
-      #menu_holder {
-        position: absolute;
-        width: 0px;
-        left: 0;
-        right: 0px;
-        background: var(--primary);
-        top: 64px;
-      }
-        .slicknav_nav {
-        display:block !important;
-      }
-      .nav-toggler {
-        transition: all .3s ease;
-      }
-      .nav-toggler.active span:first-child {
-        transform: rotateZ(45deg);
-      }
-      .nav-toggler.active span:last-child {
-        display: none;
-      }
-      
-      .nav-toggler.active span:nth-child(2) {
-        transform: rotateZ(-45deg);
-        margin-top: -11px;
-      }
-      .main-header{
-        position: relative;
-      }
-    .service-box {
-        display: none !important;
-    }
-    .main-header {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .banner-content h1 {
-        font-size: 42px        ;
-    }
-    .right-arrow {
-        position: absolute;
-        top: 40px;
-        right: 70px;
-        transform: rotate(111deg);
-    }
-    .button-box {
-        padding-bottom: 0px;
-        width: fit-content;
-        flex-wrap: wrap;
-    }
-    .banner-area {
-        padding-bottom: 300px;
-    }
-    .services-item {
-        width: calc((100% - 30px) / 4);
-    }
-    .services-info h6 {
-        min-height: 44px;
-    }
-    .testimonials-box {
-        flex-direction: column;
-    }
-    .client-photo {
-        margin: 0 auto;
-    }
-    .client-text {
-        padding: 30px;
-        padding-top: 40px;
-    }
-    .client-text-quote h5 {
-        font-size: 20px;
-        line-height: 26px;
-        margin-bottom: 0px;
-    }
-    .client-text-quote h5::before, .client-text-quote::before {
-        width: 32px;
-        height: 30px;
-        top: -4px;
-        left: -8px;
-        background-size: contain;
-    }
-    .client-text-quote h5::before, .client-text-quote::before {
-        width: 32px;
-        height: 30px;
-        top: -22px;
-        left: -24px;
-        background-size: contain;
-    }
-    span.quote-icon {
-        top: 12px;
-        width: 32px;
-    }
-    .your-team-content.d-flex.justify-content-between {
-        flex-direction: column;
-    }
-    .your-team-info,
-    .your-team-form {
-        width: 100%;
-    }
-    .your-team-info {
-        padding: 0px;
-        padding-top: 24px;
-    }
-    .your-team-form button.date-btn {
-        padding: 5px 12px;
-    }
-    .your-team-form button.date-btn img {
-        width: 20px;
-    }
-    .your-team-form-area .common-title {
-        margin-bottom: 40px;
-    }
-    .your-team-form-area {
-        padding-top: 60px;
-        padding-bottom: 40px;
-    }
-    .jog-seekeer-link span {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .job-seeker-bg {
-        padding: 30px 38px;
-    }
-    .staff-shortages-wrap  {
-        flex-direction: column;
-    }
-    .staff-photo {
-        width: 100%;
-    } 
-    .staff-info {
-        padding-left: 0px;
-        width: 100%;
-    } 
-    .our-employes-area span {
-        font-size: 16px;
-    }
-    .teamextend-bg {
-        flex-direction: column;
-        background: linear-gradient(to left, #008888 0%, #004E4E 100%);
-        margin: 0px -20px;
-    }
-    .teamextend-info {
-        padding: 25px 0px 0px 0px;
-    }
-    .teamextend-photo {
-        width: 100%;
-        min-width: 100%;
-        margin-top: -130px;
-    }
-    .teamextend-info {
-        width: 100%;
-        flex-direction: column-reverse;
-    }
-    .teamextend-photo img {
-        width: 100%;
-    }
-    .teamextend-area .common-title {
-        margin-bottom: 150px;
-    }
-    .teamextend-bg {
-        padding: 0px 20px 33px 20px;
-    }
-    .video-play-btn {
-        width: 80px;
-        min-width: 80px;
-        height: 80px;
-    }
-    .teamextend-text h3 {
-        font-size: 22px;
-        line-height: 30px;
-        padding-top: 24px;
-    }
-    .teamextend-text p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .teamextend-area .watch-btn.btn {
-        margin-top: 26px;
-    }
-    .teamextend-photo img {
-        border-radius: 40px;
-    }
-    .prior-authorization-info {
-        width: 68%;
-    }
-    .prior-authorization-title h3 {
-        font-size: 22px;
-    }
-    .prior-authorization-title {
-        width: 416px;
-        padding: 20px 20px 19px 0px;
-        height: 68px;
-    }
-    .prior-authorization-info::before {
-        height: 68px;
-    }
-    .prior-authorization-info p {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .authorization-title-inner {
-        gap: 12px;
-    }
-    .author-icon {
-        max-width: 26px;
-    }
-    .owl-nav {
-        top:initial;
-        bottom: 0px;
-        transform: initial;
-    }
-    .carsoul-slider-wrap {
-        padding: 0;
-    }
-    button.owl-prev {
-        margin-left:0px;
-    }
-    button.owl-next {
-        margin-right: 0px;
-    }
-    .authorrization-info-box {
-        padding: 40px 21px 30px 28px;
-        margin-top: -30px;
-    }
-    .second-team-form .your-team-form {
-        width: 100%;
-    }
-    .second-team-form .your-team-info {
-        padding-right: 0px;
-        padding-top: 24px;
-        width: 100%;
-    }
-    .second-team-form .your-team-info h3 {
-        font-size: 22px;
-        padding-bottom: 10px;
-    }
-    .second-team-form .your-team-info h3 {
-        font-size: 22px;
-    }
-    .second-team-form .your-team-info p {
-        font-size: 16px;
-        line-height: 22px;
-        padding-bottom: 0px;
-    }
-    .common-btn a {
-        font-size: 16px;
-        width: 100%;
-    }
-    .your-team-form-area.second-team-form.custom-py {
-        padding-top: 40px;
-    }
-    .footer-area {
-        padding-top: 40px;
-    }
-    .footer-content {
-        flex-direction: column;
-    }
-    .about-widget {
-        padding-right: 0px;
-        width: 100%;
-    }
-    .about-widget-inner {
-        max-width: 100%;
-    }
-    .usefull-list-widget {
-        width: 100%;
-        padding-top: 30px;
-    }
-    .inner-banner-content {
-        padding-top: 40px;
-        padding-bottom: 58px;
-    }
-    .banner-area.inner-banner {
-        padding-bottom: 0px;
-        padding-top: 110px;
-    }
-    .title-inner-icon {
-        max-width: 50px;
-    }
-    .inner-banner .banner-content h1 {
-        font-size: 28px;
-        margin-bottom: 4px;
-        line-height: 38px;
-    }
-    .banner-title-inner p,
-    .banner-title-inner span {
-        font-size: 16px;
-    }
-    .inner-banner .date-btn.btn {
-        font-size: 16px;
-        padding: 10px 15px;
-        height: auto;
-    }
-    .service-contnet-wrap {
-        padding-top: 40px;
-    }
-    .address-info h2 {
-        font-size: 24px;
-    }
-    .address-info ul li a {
-        font-size: 20px;
-    }
-    .address-wrap-box {
-        margin-bottom: 50px;
-    }
-    .contant-form-box h4 {
-        font-size: 28px;
-        margin-bottom: 30px;
-    }
-    .contant-form-box {
-        padding: 24px 20px;
-    }
-    .office-location-box {
-        padding: 35px 24px;
-        margin-top: 40px;
-    }
-    .office-location-single h4 {
-        font-size: 24px;
-        margin-bottom: 16px;
-    }
-    .office-location-single p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .office-location-single {
-        background: #fff;
-        padding: 24px 18px;
-        width: 100%;
-    }
-    .testimonila-title {
-        flex-direction: column;
-    }
-    .testimonila-title {
-        padding-bottom: 40px;
-    }
-    .testimonials-box-full {
-        margin-top: 45px;
-    }
-    .testimonila-title h4 {
-        font-size: 24px;
-        padding-left: 0px;
-        text-align: center;
-    }
-    .testimonial-title-logo {
-        gap: 15px;
-        min-width: auto;
-        width: 100%;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    .testimonial-title-logo img {
-        max-width: 100px;
-    }
-    .hired-apply-box {
-        margin-top: 40px;
-        padding: 30px 20px;
-    }
-    .works-content-item p {
-        font-size: 16px;
-        padding-top: 6px;
-    }
-    .header-top  {
-        height: 38px;
-    }
-    .header .phone-mail-box {
-        display: flex !important;
-        padding: 10px 10px;
-    }
-    .header .phone-btn {
-        font-size: 16px;
-        font-weight: 500;
-        width: 100%;
-        justify-content: center;
-    }
-    .slicknav_nav li ul {
-        padding-left: 20px;
-    }
-    .slicknav_nav li ul li:last-child {
-        border-bottom: none;
-    }
-    .slicknav_open .slicknav_arrow:before, .slicknav_collapsed .slicknav_arrow:before {
-        content: "\f054";
-        left: inherit;
-        right: 0;
-        color: var(--black);
-        font-size: 14px;
-        font-family: "Font Awesome 6 Free"; 
-        font-weight: 900;
-        color:#fff
-    }
-    .slicknav_nav .slicknav_row {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: space-between;
-    }
-    .slicknav_nav .slicknav_arrow {
-        margin: 0px;
-        margin-right: 12px;
-    }
-    .slicknav_open .slicknav_item.slicknav_row >.slicknav_arrow::before {
-        content: "\f078";
-    }
-
-    .slicknav_collapsed.slicknav_parent .slicknav_arrow::before {
-        content: "\f054";
-    }
-   
-    .slicknav_parent ul .slicknav_parent .slicknav_arrow::before {
-        content: "\f078" !important;
-    }
-    .slicknav_parent ul .slicknav_parent.slicknav_collapsed .slicknav_arrow::before {
-        content: "\f054" !important;
-    }
-    .privacy-policy-area {
-        padding-bottom: 40px;
-    }
-    .footer-busniess-item {
-        width: 100%;
-    }
-    .footer-busniess-box {
-        flex-wrap: wrap;
-    }
-    .footer-logobox ul li {
-        max-width: 200px;
-    }
-    .footer-logobox ul {
-        gap: 30px;
-    }
-    .footer-busniss-info .footer-logobox p, .footer-logobox h6 {
-        font-size: 18px;
-        line-height: 25px;
-    }
-    .services-element-info h5 {
-        font-size: 20px;
-    }
-    .services-element-info p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .services-element-info .btn {
-        height: 42px;
-        font-size: 16px;
-        padding: 0px 24px;
-    }
-    .services-element-item {
-        padding: 20px 22px;
-        gap: 20px;
-    }
-   .services-element-box  .services-icon a {
-        max-width: 80px;
-    }
-    .our-services-box .services-icon {
-        width: 150px;
-        min-width: 150px;
-        height: 150px;
-    }
-
-    .menu-backdrop {
-        position: fixed;
-        right: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        -webkit-transform: translateX(101%);
-        -ms-transform: translateX(101%);
-        transform: translateX(101%);
-        background: #ffbd4c82;
-    }
-    
-    .header-bg .menu-backdrop{
-        -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-
-    #menu_holder {
-        height: 100vh;
-        /* width: 0px; */
-        width: 280px;
-        left: inherit;
-        right: 0px;
-        bottom: 0px;
-        width: 0px;
-        -webkit-transform: translateX(101%);
-        -ms-transform: translateX(101%);
-        transform: translateX(101%);
-        visibility: hidden;
-        border-radius: 0;
-        top:-38px;
-        -webkit-transition: all .3s ease;
-        -moz-transition: all .3s ease;
-        -ms-transition: all .3s ease;
-        -o-transition: all .3s ease;
-        transition: all .3s ease
-
-    }
-
-    .header.header-position #menu_holder {
-        top:0px;
-    }
-
-    .mobile-menu-open#menu_holder {
-        visibility: visible;
-        -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-        transform: translateX(0%);
-        width: 280px;
-        top:-38px;
-        z-index: 3;
-    }
-
-    .nav-toggler.active span {
-        background-color: var(--white) !important;
-    }
-    nav.slicknav_nav.slicknav_hidden {
-        padding-top: 80px;
-    }
-    
-    .overflow-hidden {
-        overflow: hidden;
-    }
-    .slicknav_menu {
-        height: 100vh;
-        overflow: auto;
-        padding-bottom: 200px;
-    }    
-    .mobile-menu-open#menu_holder {
-        top:-38px
-    }
-
-    .header-top-inner {
-        padding: 9px 0px;
-    }
-    header.header.header-position.header-bg  .mobile-menu-open#menu_holder{
-        top:0px;
-    }
-    button.nav-toggler.toggler-open.active {
-        position: fixed;
-        top: 35px;
-        right: 15px;
-    }
-    .employess-use-softwares {
-        max-width: 100%;
-    }
-    .complated-counter-item {
-        width: 100%;
-        padding-right: 0px;
-        text-align: center;
-    }
-    .complated-counter-item h2 {
-        font-size: 34px;
-        line-height: 42px;
-        margin-bottom: 5px;
-    }
-    .pepole-reviw-item-innner .review-item {
-        padding: 25px 20px;
-    }
-   .pepole-reviw-item-innner .review-info::before {
-         background-size: cover;
-         width: 30px;
-         height: 20px;
-    }
-    .pepole-reviw-item-innner .quote-icon {
-        width: 32px;
-    }
-    .pepole-reviw-item-innner .review-info {
-        padding-top: 20px;
-    }
-    .pepole-reviw-item-innner .review-info p {
-        padding-right: 33px;
-    }
-    .people-review-box .review-content {
-        gap: 20px;
-    }
-    .pepole-reviw-item-innner .review-item {
-        width: calc((100% - 20px) / 2);
-    }
-    
-    .our-team-item {
-        width: calc((100% - 20px) / 2);
-    }
-    .our-team-photo img {
-        width: 100%;
-    }
-    .partner-login.d-flex {
-        width: 100%;
-        justify-content: space-between;
-    }
-    .button-box {
-        width: 100%;
-    }
-    .service-contnet-wrap img {
-        border-radius: 20px;
-        margin-bottom: 30px;
-    }
-    .blog-item-photo {
-        width: 290px;
-        min-width: 290px;
-    }
-    .blog-item-text h3 {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    .blog-item-text p {
-        font-size: 15px;
-    }
-    .faq-contnet-wrap .faq-title h2 {
-        font-size: 28px;
-    }
-    .still-have {
-        flex-direction: column;
-        text-align: center;
-    }
-    .still-have {
-        margin-top: 40px;
-    }
-    .faq-bottom {
-        margin-top: 40px;
-    }
-    .service-contnet-wrap h3 {
-        font-size: 20px;
-        margin-bottom: 24px;
-    }
-    .faq-cs-area .btn-box {
-        flex-direction: column;
-    }
-    .btn-box .faq {
-        width: 100%;
-        text-align: center;
-    }
-    .faq-testimonials .content {
-        padding: 20px;
-    }
-    .inner h2 {
-        line-height: 1;
-        font-size: 20px !important;
-    }
-    .inner h5 {
-        font-size: 16px !important;
-    }
-    .inner p {
-        margin-bottom: 0px;
-    }
-    .faq-testimonials .content ul {
-        gap: 1px;
-    }
-    .faq-testimonials .content ul li {
-        font-size: 13px;
-    }
-    .accordion-header h6 {
-        margin-bottom: 0px !important;
-    }
-    .breadcrumb a, .breadcrumb span {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    table {
-        width:100% !important;
-        margin-bottom:20px;
-    }
-    .our-employees-area {
-        background: #fff;
-    }
-    .our-employees-area .employess-use-softwares {
-        border-radius: 0px;
-    }
-    .employees-area-content {
-        padding-top: 30px;
-    }
-    .our-team-wrap {
-        margin-bottom: 40px;
-    }
+  .extensive-text-content h2 {
+      font-size: 28px;
+      line-height: 38px;
+      padding-bottom: 20px;
+  }
+    .work-button {
+      font-size: 20px;
+      gap: 16px;
+      padding: 7px 50px;
+  }
+  .extensive-text-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .craftsmanship-area {
+    padding: 120px 0px;
+  }
+  .contant-us-area .common-title p br,
+  .contant-us-area .common-title h2 br {
+    display: none;
+  }
+    .contant-us-area .common-title {
+      padding-bottom: 20px;
+  }
+  .blog-slider-area {
+    padding:0px 100px; 
+  }
+  .banner-info {
+      min-height: 430px;
+  }
+  .about-info-text {
+    padding-left: 50px;
+  }
+  .aboutus-area .common-title h2 {
+      font-size: 30px;
+      line-height: 44px;
+  }
+  .price-list-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .price-list-item li {
+    width: calc((100% - 45px) / 3);
+  }
+  .testimonials-single-item {
+      width: 70%;
+      padding-bottom: 40px;
+  }
+  .testimonials-single-item:last-child {
+    padding-bottom: 0px;
+  }
+  .banner-slider-item {
+    height: 510px;
+  }
   
 }
 
-@media only screen and (max-width: 900px) {
-    .right-arrow {
-        position: absolute;
-        top: initial;
-        right: 168px;
-        transform: rotate(111deg);
-        bottom: -105px;
-        max-width: 100px;
-    }
 
-    
-    .banner-content h4 {
-        font-size: 28px;
-        padding-top: 10px;
-    }
-    .banner-content h4 span  {
-        font-size: 34px;
-    }
-    .banner-content h4 span::after {
-        width: 68px;
-        height: 42px;
-        bottom: -37px;
-        background-repeat: no-repeat;
-    }
+@media screen and (max-width: 1200px) {
+  .menu-navbar ul {
+    gap: 20px;
+  }
 
-    .banner-content .scroll-in span {
-        font-size: 44px;
-        line-height: 1.3em;
-    }
-    .scroller {
-        height:60px;
-        width: 100%;
-    }
+  .logo {
+    max-width: 240px;
+  }
 
-    @keyframes slide {
-        0%, 16.67% {
-           top: -3px; /* Start with the first item slightly off-center */
-        }
-        19.67%, 33.33% {
-           top: -57px; /* Move to the second item */
-        }
-        36.33%, 50% {
-           top: -114px; /* Move to the third item */
-        }
-        53%, 66.67% {
-           top: -171px; /* Move to the fourth item */
-        }
-        69.67%, 83.33% {
-           top: -228px; /* Move to the fifth item */
-        }
-        86.33%, 96.67% {
-           top: -285px; /* Move to the sixth item */
-        }
-        100% {
-           top: -3px; /* Reset to the first item */
-        }
-      }
-     
-   
+  .menu-navbar ul li {
+    font-size: 16px;
+  }
+
+  .artistry-behind-title {
+    padding: 20px 20px
+  }
+
+  .artistry-behind-title h5 {
+    font-size: 20px;
+  }
+
+  .details-box a {
+    height: 80px;
+  }
+
+  .artistry-behind-wrap {
+    padding-top: 50px;
+  }
+  .voices-experience-content {
+      display: grid;
+      grid-template-columns: 18% 60% 18%;
+      align-items: center;
+  }
+  .voices-experience-photo  {
+    width: 40%;
+  }
+  .voices-experience-info {
+    width: 60%;
+    padding: 20px
+  }
+  .contant-us-area .common-title h2 {
+      line-height: 45px;
+  }
+  .banner-area {
+      margin-top: 65px;
+  }
+  .category-list-area {
+    padding-bottom: 60px;
+  } 
+  .impact-factors-title h2 {
+      font-size: 75px;
+  }
+  .impact-factors-info {
+      padding: 40px;
+  }
+  .impact-factors-info h3 {
+      font-size: 28px;
+      line-height: 38px;
+      padding-bottom: 15px;
+  }
+  .description-area h2 br,
+  .description-area p br {
+    display: none;
+  }
+  .product-photo {
+      max-width: 360px;
+  }
+  .attempt-title h2 {
+    font-size: 80px;
+  }
+  .sustainable-item-inner {
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+  }
+  .leather-story-info p {
+      font-size: 16px;
+      line-height: 24px;
+      padding-bottom: 8px;
+  }
+  .member-info {
+    padding-left: 24px;
+  }
+  .innner-banner-3 .banner-info {
+    min-height: 400px;
+  }
+  .our-member-item {
+      padding: 60px 20px 50px 20px;
+  } 
+  .member-info p {
+    font-size: 16px;
+  }
+  .impact-factors-area .price-list-item li {
+      width: calc((100% - 30px) / 2);
+  }
+  
 }
 
-@media only screen and (max-width: 768px) {
-    .accordion-box {
-        padding-bottom: 10px;
-    }
-    .review-client-area .listing li {
-        min-height:auto;
-    }
-    .service-contnet-wrap h1 {
-        font-size:25px;
-        line-height:30px;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .partner-login ul {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        top:25px;
-        left: -10px;
-        background: var(--primary);
-        gap:5px;
-        z-index: 1;
-        padding-right: 0px;
-        padding: 10px;
-        border-radius: 8px;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        opacity: 0;
-        transform: scaleY(0);
-        visibility: hidden;
-        transform-origin: center top 0;
-        transition: all .5s ease 0s;
-    }
 
-    .partner-login ul.show-menu    {
-        opacity: 1;
-        transform: scaleY(1);
-        visibility: visible;
-    }
-    .mobile-menu-icon i {
-        transition: all .3s ease;
-    }
-    .mobile-menu-icon.active i {
-        transform: rotate(90deg);
-        color: var(--yellow);
-    }
-    .mobile-menu-icon span {
-        color: #fff;
-        display: flex;
-        gap: 6px;
-        font-size: 14px;
-        align-items: center;
-    }
-    .single-eazyrecruitz_jobs .mobile-menu-icon span {
-        color: var(--primary);
-    }
-    .single-eazyrecruitz_jobs .partner-login ul li a {
-        color: var(--white);
-    }
-    .partner-login ul li {
-        width: 100%;
-        text-align: center;
-    }
-    .partner-login a {
-        margin-left: auto;
-    }
-    .widget_sly_services_widget .category-list ul li a,
-    .widget_sly_navigation_menu_widget .category-list ul li a {
-        gap:10px;
-    }
-    .banner-area {
-        padding-top: 180px;
-        padding-bottom: 190px;
-    }
-    .banner-content h1 {
-        font-size: 28px;
-        padding-bottom: 10px;
-    } 
-    .footer-logobox ul {
-        gap: 20px;
-    }
-    span.wpcf7-form-control.wpcf7-radio {
-        display:flex;
-        flex-direction:column;
-    }
-    .wpcf7-list-item {
-        margin-left:0px;
-    }
 
-    .showcase-our-services .prior-authorization-title h3 {
-        font-size:16px;
-    }
-    .showcase-our-services .author-icon {
-        width: 24px;
-        min-width: 24px;
-    }
-    .showcase-our-services .author-icon img {
-        width:100% !important;
-    }
-    .showcase-our-services .prior-authorization-title {
-        height:45px !important;
-    }
-    .showcase-our-services .authorrization-info-box {
-        padding: 35px 24px 24px 33px !important;
-        margin-top: -22px !important;
-    }
-    .showcase-our-services .authorizationi-inner-box {
-        margin-bottom: 30px;
-    }
+@media screen and (max-width: 991px) {
+  nav#menu-nav {
+    display: none;
+  }
+  .impact-factors-photo  img{
+    width: 100%;
+  }
 
-    @keyframes slide {
-        0%, 16.67% {
-           top: 0; /* Start with the first item centered */
-        }
-        19.67%, 33.33% {
-           top: -29px; /* Move to the second item */
-        }
-        36.33%, 50% {
-           top: -58px; /* Move to the third item */
-        }
-        53%, 66.67% {
-           top: -87px; /* Move to the fourth item */
-        }
-        69.67%, 83.33% {
-           top: -116px; /* Move to the fifth item */
-        }
-        86.33%, 96.67% {
-           top: -145px; /* Move to the sixth item */
-        }
-        100% {
-           top: 0; /* Reset to the first item */
-        }
-      }
-      .banner-content .scroll-in span {
-        font-size: 22px;
-      }
-    .scroller {
-        height: 30px;
-    }
-    .banner-content h4 {
-        font-size: 18px;
-        padding-top: 10px;
-        padding-bottom: 45px          ;
-    }
-    .banner-content h4 span {
-        font-size: 24px;
-    }
-    .banner-content h4 span::after {
-        width: 48px;
-        height: 26px;
-        bottom: -22px;
+  .custom-py {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    }
-    .btn {
-        height: 50px;
-        font-size: 16px;
-        padding: 9px 20px;
-        height: auto;
-        transition: all .3s ease;
-        gap: 10px;
-        width: 100%;
-    }
-    .watch-btn.btn img {
-        margin-right: 0px;
-        width: 24px;
-    }
-    a.date-btn.btn img {
-        width: 22px;
-    }
-    .right-arrow {
-        bottom: -84px;
-        max-width: 80px;
-    }
-    .banner-area::before {
-        height: 100px;
-    }
-    .services-item {
-        width: calc((100% - 10px) / 2);
-    }
-    .outsourcing-title h2 {
-        font-size: 24px;
-        line-height: 30px;
-    }
-    .outsourcing-title {
-        gap: 10px;
-    }
-    .outsourcing-title {
-        padding: 24px 20px 24px 20px;
-    }
-    .outsourcing-icon {
-        width: 70px;
-        min-width: 72px;
-        margin-right: auto;
-    }
-    .outsourcing-title {
-        flex-direction: column;
-    }
-    .outsourcing-services {
-        padding-bottom: 40px;
-    }
-    .secure-delivery-list-bg {
-        padding: 24px 20px;
-        background: var(--primary);
-        border-radius: 8px;
-    } 
-    .secure-delivery-list-bg ul li {
-        font-size: 16px;
-    }
-    .secure-delivery-list-bg ul li::before {
-        width: 14px;
-        height: 14px;
-        top:6px;
-    }
-    .secure-delivery-list-bg ul {
-        gap: 8px 10px;
-        flex-direction: column;
-        align-items: flex-start;
-        align-items: self-start !important;
-    }
-    .secure-delivery-list-bg ul li {
-        padding-left: 24px !important;
-    }
-    .secure-delivery-list-bg ul li:first-child:before {
-        display: initial;
-    }
-    .testimonials-box {
-        margin: -20px;
-        margin-top: 40px;
+  .logo {
+    max-width: 240px;
+  }
 
-    }
-    .client-btn.d-flex.align-items-center {
-        padding-top: 22px;
-        flex-direction: column;
-    }
-    .client-btn span {
-        font-size: 14px;
-        padding-right: 0px;
-        padding-bottom: 5px;
-        max-width: 100%;
-    }
-    .client-text-quote h5::before, .client-text-quote::before {
-        left: -18px;
-    }
-    .common-title h2 {
-        font-size: 24px;
-        line-height: 30px;
-    }
-    .title-icon {
-        max-width: 36px;
-        min-width: 36px;
-    }
-    .title-icon.title-custom-width {
-        width: 60px;
-        min-width: 60px;
-    }
-    .partner-login {
-        position: relative;
-    }
+  .humbarger-menu {
+    display: block;
+    margin-bottom: -10px
+  }
 
-    
-    .common-title {
-        padding: 10px 28px;
-        margin: 0 auto;
-        margin-bottom: 80px;
-        gap: 10px;
-    }
-    .works-content-item {
-        width: 100%;
-        border:none;
-        background: linear-gradient(to left, #008888 0%, #004E4E 100%);
-    }
-    .how-it-works-content {
-        background: transparent;
-        flex-direction: column;
-        gap: 70px;
-    }
-    .secure-delivery-area {
-        padding-bottom: 60px;
-    }
-    .cost-saving-area {
-        padding-top: 40px;
-    }
-    .cost-saving-content  {
-        flex-direction: column;
-    }
-    .cost-saving-container {
-        padding: 24px 20px;
-    }
-    .cost-saving-container .common-title {
-        margin-bottom: 12px;
-        padding: 0px;
-    }
-    .cost-saving-info p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .cost-saving-container::before {
-        width: 40px;
-        height: 40px;
-    }
-    .cost-saving-content.d-flex {
-        gap: 20px;
-    }
-    .cost-saving-btn {
-        position: relative;
-        z-index: 2;
-    }
-    .we-different-area {
-        padding-top: 24px;
+  nav.menu-navbar {
+    display: none
+  }
 
-    }
-    .we-different-area .common-title  {
-        margin-bottom: 40px;
-    }
-    .different-btn-box {
-        flex-direction: column;
-    }
-    .different-btn-box {
-        padding: 24px 20px;
-    }
-    .different-btn-box h4 {
-        font-size: 20px;
-    }
-    .different-btn .date-btn.btn {
-        min-width: auto
-    }
-    .we-different-info .client-text-quote h5 {
-        font-size: 20px;
-        line-height: 28px;
-        padding-left: 34px;
-    }
-    .we-different-info .client-text-quote::before {
-        width: 32px;
-        height: 30px;
-        top: -8px;
-        background-size: contain;
-    }
-    .faq-contnet-wrap .faq-title h2 {
-        font-size: 24px;
-    }
+  .nav-toggler {
+    border: none;
+    outline: none;
+    width: 34px;
+    padding: 0;
+    background: 0 0;
+    position: relative;
+    z-index: 33
+  }
 
-    .we-different-info .client-text-quote  {
-        margin-top: 36px;
-        margin-bottom: 40px;
-    }
-    .we-different-photo {
-        padding-top: 24px;
-    }
-    .testimonials-area .testimonials-box {
-        padding-top: 32px;
-    }
-    .your-team-form-area .common-title {
-        margin-bottom: 24px;
-    }
-    .your-team-info h3 {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .your-team-info ul li {
-        font-size: 16px;
-        line-height: 22px;
-        padding: 8px 10px;
-        padding-left: 27px;
-    }
-    .your-team-info ul {
-        padding-left: 15px;
-    }
-    .your-team-info ul li::before {
-        width: 18px;
-        height: 18px;
-        background-size: cover;
-        top: 11px;
-    }
-    button.date-btn {
-        margin-top: 10px;
-    }
-    .jog-seeker-box a {
-        flex-direction: column;
-    }
-    .jog-seekeer-link {
-        margin-left: 0px;
-    }
-    .jog-seekeer-link span {
-        padding: 20px;
-        padding-top: 60px;
-    }
-    .job-seeker-bg {
-        padding: 24px 20px;
-    }
-    .jog-seeker-icon {
-        width: 100px;
-        min-width: 100px;
-        height: 100px;
-        margin-bottom: -46px;
-    }
-    .jog-seeker-icon img {
-        max-width: 60px;
-    }
-    .your-team-form-area {
-        padding-bottom: 30px;
-    }
-    .job-seeker-area {
-        padding-bottom: 40px;
-    }
-    .our-employes-wrap {
-        padding-top: 20px;
-    }
-    .our-employes-area {
-        padding-bottom: 40px;
-    }
-    .staff-info h3 {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .staff-info {
-        padding-top: 23px;
-    }
-    .staff-info p {
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 20px;
-    }
-    .staff-shortages-area {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .our-employes-item img {
-        max-width: 150px;
-    }
-    .teamextend-area {
-        padding-top: 40px;
-        padding-bottom: 40px; 
-    }
-    .review-item {
-        width: 100%;
-    }
-    .review-title h5 {
-        font-size: 20px;
-        line-height: 23px;
-    }
-    .review-rating ul li {
-        font-size: 16px;
-    }
-    .btn-wrap {
-        padding-top: 35px;
-    }
-    .btn-wrap .btn {
-        color: #141C42;
-        padding: 13px 2px;
-    }
-    .review-client-area {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .review-client-area .common-title {
-        margin-bottom: 30px;
-    }
-    .review-info::before {
-        width: 32px;
-        height: 30px;
-        background-size: contain;
-    }
-    .review-item {
-        border-radius: 15px;
-        background: var(--white);
-        padding: 40px 20px 27px 19px;
-    }
-    .review-info {
-        position: relative;
-        padding-top: 22px;
-    }
-    .numbers-counter-single {
-        width: 100%;
-    }
-    .numbers-counter-wrap {
-        padding: 24px 14px;
-    }
-    .numbers-counter-item h5 {
-        font-size: 20px;
-        padding-bottom: 1px;
-    }
-    .numbers-counter-area{
-        padding-bottom: 40px;
-    }
-    .numbers-speck-title span {
-        font-size: 16px;
-        line-height: 22px;
-        padding: 0 18px;
-        padding-top: 10px;
-    }
-    .prior-authorization-box {
-        flex-direction: column;
-    }
-    .prior-authorization-info {
-        width: 100%;
-    }
-    .prior-authorization-success {
-        width: 100%;
-    }
-    .prior-authorization-title h3 {
-        font-size: 16px;
-    }
-    .author-icon {
-        max-width: 20px;
-    }
-    .prior-authorization-title {
-        width: 300px;
-        padding: 12px 14px 12px 0px;
-        border-radius: 0px 12px 12px 0px;
-        height: 45px;
-    }
-    .prior-authorization-info::before {
-        height: 45px;
-    }
-    .read-more-btn {
-        font-size: 13px;
-        padding: 1px 18px;
-        display: inline-flex;
-    }
-    .prior-authorization-info p {
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 20px;
-    }
-    .prior-authorization-top h3 {
-        font-size: 24px;
-        padding-top: 14px;
-        padding-bottom: 10px;
-    }
-    .prior-authorization-top p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .prior-authorization-button {
-        padding-top: 30px;
-    }
-    .counter-number-count span,
-    .counter-number span {
-        padding: 4px 5px;
-        font-size: 25px;
-        width: 24px;
-        height: 40px;
-    }
-    .outsourcing-area.custom-py {
-        padding-bottom: 40px;
-    }
-    .carsoul-slider-wrap {
-        padding-bottom: 30px;
-    }
-    .slider-info h4 {
-        margin-bottom: 24px;
-    }
-    .common-slider-area .common-title {
-        margin-bottom: 24px;
-    }
-    .vido-play-slider {
-        width: 60px;
-        height: 60px;
-    }
+  .nav-toggler span {
+    width: 100%;
+    margin-bottom: 8px;
+    height: 3px;
+    border-radius: 10px;
+    display: block;
+    background: var(--primary)
+  }
 
-    button.owl-prev, button.owl-next {
-        width: 48px;
-        height: 48px;
-    }
-    .common-slider-area .btn-wrap {
-        padding-top: 45px;
-    }
-    .common-slider-area  {
-        padding-bottom: 40px;
-    }
-    .footer-area h4 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 14px;
-    }
-    .footer-area p {
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 24px;
-    }
-    .subscribe-form .form-control,
-    .subscribe-form input[type="email"] {
-        font-size: 18px;
-        height: 56px;
-    }
-    .subscribe-form button,
-    .subscribe-form input[type="submit"] {
-        font-size: 18px;
-        height: 52px;
-        gap: 10px;
-    }
-    .usefull-list-widget {
-        padding-top: 40px;
-    }
-    .usefull-list-widget ul li {
-        line-height: 28px;
-        width: 100%;
-        padding-right: 0px;
-        font-weight: 400;
-    }
-    .usefull-list-widget ul {
-        flex-direction: column;
-        height: auto;
-    }
-    .breadcrumb {
-        gap: 5px 20px;
-    }
-    .footer-content {
-        padding-bottom: 24px;
-    }
-    .copyright-wrap {
-        padding: 25px 0px;
-        flex-direction: column;
-        gap: 18px;
-    } 
-    .footer-logo {
-        order: 1;
-    }
-    .media-link {
-        order: 2;
-    }
-    .copyright-wrap span {
-        order: 3;
-    }
-    .media-link ul li {
-        width: 24px;
-    }
-    .copyright-wrap span {
-        font-size: 15px;
-        font-weight: 500;
-    }
-    .media-link ul {
-        gap:4px;
-    }
-    .footer-logo {
-        max-width: 200px;
-    }
-   
-    .inner-banner-content {
-        padding-top: 24px;
-        padding-bottom: 58px;
-        flex-direction: column;
-        align-items: flex-start !important;
-    }
-    .banner-title-inner {
-        gap: 10px;
-        padding-bottom: 20px;
-    }
-    .title-inner-icon {
-        max-width: 40px;
-    }
-    .inner-banner .banner-content h1 {
-        font-size: 28px;
-        margin-bottom: 4px;
-        line-height: 35px;
-        padding-bottom: 0px;
-    }
-    .inner-banner .date-btn.btn {
-        font-size: 14px;
-    }
-    .blog-item-box-wrap {
-        padding-top: 30px;
-        flex-direction: column;
-    }
-    .banner-title-inner p,
-    .banner-title-inner span {
-        font-size: 15px;
-    }
-    .blog-main .staffing-btn-box .btn {
-        width: 100%;
-    }
-    ol.breadcrumb {
-        padding-top: 10px;
-    }
-    .blog-bottom-box .btn {
-        width: fit-content;
-    }
-    .blog-item-photo {
-        width: 100%;
-        min-width: 100%;
-    }
-    .blog-item-photo img {
-        width: 100%;
-    }
-    .blog-area {
-        padding-top: 40px;
-    }
-    .read-case-btn a {
-        font-size: 18px;
-        padding: 8px 10px;
-    }
-    .sidebar-category-box {
-        padding: 18px;
-        margin-top: 24px;
-    }
-    .sidebar-category-box.widget_sly_cta_widget {
-        padding: 0;
-        margin-top: 0;
-    }
-    .sidebar-title h6 {
-        font-size: 20px;
-    }
-    .keyword-search .form-control {
-        padding-left: 16px;
-    }
-    .category-list ul li {
-        padding: 12px 0px;
-    }
-    .video-single-item {
-        gap: 12px;
-    }
-    .information-video-photo {
-        width: 130px;
-        min-width: 130px;
-    }
-    .information-video-single {
-        padding: 15px 0px;
-    }
-    .blog-main .outsourcing-icon {
-        width: 70px;
-        min-width: 70px;
-    }
-    nav.pagination-wrap {
-        margin-top: 30px;
-    }
-    .service-contnet-wrap img {
-        margin-bottom: 20px;
-    }
-    .service-contnet-wrap ol li, .service-contnet-wrap ul li, .service-contnet-wrap p {
-        font-size: 16px;
-        line-height: 24px;
-    
-    }
-    .service-contnet-wrap ol li,
-    .service-contnet-wrap ul li {
-        margin-bottom: 10px;
-    }
-    .service-contnet-wrap ol li:last-child,
-    .service-contnet-wrap ul li:last-child {
-        margin-bottom: 0px;
-    } 
-    .service-contnet-wrap h2 {
-        font-size: 24px;
+  .nav-toggler span:last-child {
+    margin-bottom: 0
+  }
 
-    }
-    .service-contnet-wrap h6 {
-        font-size: 20px;;
-        margin-bottom: 20px;
-    }
-    .address-wrap-box {
-        flex-direction: column;
-    }
-    .address-info ul li a {
-        font-size: 18px;
-    }
-    .address-info ul li img {
-        width: 24px;
-    }
-    .address-info ul {
-        padding-left: 20px;
-    }
-    .address-info ul li {
-        padding-bottom: 8px;
-    }
-    .address-info {
-        padding-right: 0px;
-        border-right: none;
-        border-bottom: 2px solid var(--primary);
-        padding-bottom: 15px;
-    }
-    .address-wrap-box {
-        gap:15px;
-        margin-bottom: 40px;
-    }
-    .address-info h2 {
-        margin-bottom: 14px;
-        font-size: 22px;
-    }
-    .contant-form-box h4 {
-        font-size: 22px;
-        margin-bottom: 15px;
-    }
-    .form-control,
-    .subscribe-form input[type=email] {
-        height: 52px;
-        padding: 12px 20px;
-        font-size: 16px;
-    }
-    .radio-check-box.d-flex.align-items-center {
-        flex-direction: column;
-        align-items: start !important;
-        gap: 6px;
-    }
-    .contant-form-box .date-btn.btn  {
-        margin-top: 0px;
-    }
-    .office-location-box.d-flex {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .office-location-single h4 {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    .contact-vidoe-box {
-        flex-direction: column;
-        padding-top: 40px;
-    }
-    .contact-vidoe-box .slider-item {
-        width:100%;
-    }
-    .contact-vidoe-box {
-        gap:20px;
-    }
-    .contact-vidoe-box .slider-item img {
-        width: 100%;
-    }
-    .contact-vidoe-box .slider-info h4 {
-        font-size: 16px;
-        line-height: 22px;
-        margin-bottom: 4px;
-        padding-top: 6px;
-    }
-    .contact-us-area {
-        padding-bottom: 40px;
-    }
-    .our-employes-area .common-title {
-        padding-top: 40px;
-    }
-    .number-speak-2 .numbers-counter-wrap {
-        padding: 40px 20px;
-    }
-    .testimonila-title h4 {
-        font-size: 18px;
-    }
-    .hired-apply-box h3 {
-        font-size: 22px;
-        padding-bottom: 30px;
-    }
-    .hired-btn-wrap a {
-        font-size: 16px;
-        padding: 10px 40px;
-    }
-    .hired-apply-box h3 {
-        font-size: 20px;
-        padding-bottom: 20px;
-    }
-    .numbers-counter-area.number-speak-2 {
-        padding-bottom: 0px;
-    }
-    textarea.form-control {
-        min-height: 140px !important;
-    }
-    .service-contnet-wrap {
-        margin-bottom: -20px;
-    }
-    .your-team-form-area {
-        padding-top: 40px;
-    }
-    .number-speak-2 .counter-number span {
-        font-size: 24px;
-        width: 26px;
-        height: 40px;
-    }
-    .number-speak-2 .numbers-counter-item h5 {
-        padding-bottom: 0px;
-    }
-    .footer-area p {
-        font-weight: 400;
-    }
-    .we-different-info p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .your-team-form button.date-btn {
-        margin-top: 8px;
-    }
-    .our-employes-item, .employes-slider-2 .our-employes-item {
-        height: auto;
-    }
-    .teamextend-text p {
-        padding-top:14px;
-    }
-    .review-info p {
-        line-height: 24px;
-    }
-    .fancybox-slide {
-        padding:20px;
-    }
-    .client-btn span {
-        text-align: center;
-    }
-    .testimonials-box .common-btn {
-        width: 100%;
-    }
-    .authorrization-info-box {
-        margin-top: -22px;
-    }
-   .testimonials-box-full .client-text {
-        padding: 20px;
-        padding-top: 24px;
-    }
-    .testimonials-box-full  .client-photo {
-        max-width: 100%;
-    }
-    .testimonials-box-full .client-text-quote h5 {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .testimonials-box-full .client-btn span {
-        max-width: 100%;
-        padding-right: 0px;
-        text-align: center;
-        width: 100%;
-        font-size: 12px;
-    }
-    .endocrine-icon {
-        order: 1;
-        padding-left: 0px;
-        padding-bottom: 10px;
-    }
-    .testimonials-box-full .client-btn span {
-        order: 2;
-    }
-    .testimonials-box-full  .common-btn {
-        order: 3;
-    }
-    .endocrine-icon::before {
-        bottom: 14px;
-        left: 38px;
-    }
-    .testimonials-box-full .client-btn.d-flex.align-items-center {
-        padding-top: 18px;
-    }
-    .footer-busniss-info .footer-logobox p, .footer-logobox h6 {
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-    .footer-busniss-info h3 {
-        font-size: 18px;
-    }
-    .footer-busniess-box {
-        padding-bottom: 30px;
-    }
-    .footer-busniss-info .footer-logobox p, .footer-logobox h6 {
-        font-size: 16px;
-    }
-    .banner-title-inner {
-        align-items: start;
-    }
-    .error-page-info h2 {
-        font-size: 28px;
-        line-height: 38px;
-        padding-bottom: 10px;
-    }
-    .error-page-info .btn-wrap {
-        padding-top: 15px;
-    }
-    .numbers-counter-area.number-speak-2 {
-        padding-top: 40px;
-    }
-    .number-speak-2 .numbers-speck-title {
-        padding-bottom: 24px;
-    }
-    .services-element-item {
-        flex-direction: column;
-    }
-    .services-element-info {
-        align-items: center;
-        width: 100%;
-        text-align: center;
-    }
-    .services-element-info p {
-        display: initial;
-    }
+  a.slicknav_btn.slicknav_collapsed {
+    display: none
+  }
 
-   
-    .complated-counter-item h2 {
-        font-size: 22px;
-        line-height: 32px;
-        padding-bottom: 0px;
-    }
-    .service-contnet-wrap h6 {
-        font-size: 18px;
-    }
-    .project-complated-counter {
-        padding-bottom: 18px;
-    }
-    .our-services-box .service-contnet-wrap img {
-        margin-bottom: 16px;
-    }
-    
-    .service-contnet-wrap h2 br {
-        display: none;
-    }
-    .our-solutions-content {
-        gap: 24px;
-        padding-top: 24px;
-    }
-    .our-solutions-content {
-        flex-direction: column;
-    }
-    .our-solutions-item {
-        width: 100%;
-    }
-    .solution-info h3 {
-        font-size: 20px;
-    }
-    .service-contnet-wrap img {
-        margin-bottom: 12px;
-    }
-    .solution-info p {
-        padding-right: 0px;
-        margin-bottom: 14px;
-    }
-    .solution-info .btn {
-        height: 45px;
-    }
-    .pagination-wrap {
-        margin-top: 30px;
-    }
-    .solution-info .blog-info-btn {
-        width: 85%;
-    }
-    .service-contnet-wrap .pagination-wrap {
-        margin-top: 40px;
-    }
-    .pagination-wrap ul.page-numbers {
-        gap: 5px;
-    }
-    .pepole-reviw-item-innner .review-item {
-        width: 100%;
-    }
-    .btn {
-        font-size: 15px;
-    }
-    a.date-btn.btn img {
-        width: 20px;
-    }
-    .works-content-item h4 {
-        font-size: 18px;
-    }
-    .different-btn-box h4 {
-        font-size: 18px;
-    }
-    .teamextend-text p {
-        font-size: 15px;
-        line-height: 22px;
-    }
-    .project-complated-counter {
-        flex-direction: column;
-    }
-    .complated-counter-item h2 {
-        font-size: 28px;
-        line-height: 32px;
-    }
-    .common-title h2 {
-        line-height: 26px;
-    }
-    .counter-number-count span,
-    .number-speak-2 .counter-number span {
-        font-size: 22px;
-        width: 24px;
-        height: 36px;
-    }
-    .endocrine-icon img {
-        max-width: 150px;
-    }
-    .banner-content h4 {
-        line-height:40px !important;
-    }
-    .tts_play_button {
-        margin-top: 20px;
-    }
-    .team-title {
-        margin-top: 30px;
-    }
-    .image-box img {
-        width: 100%;
-    }
-    .team-title {
-        padding: 20px;
-    }
-    .case-study-title.team-title h2 {
-        font-size: 22px;
-        padding-top: 10px !important;
-        padding-bottom: 10px;
-    }
-    .team-title p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .team-name-box {
-        padding-bottom: 8px;
-    }
-    .case-study-title.empolyees-testimony-title h2 {
-        padding-top: 10px !important;
-    }
-    .bord-advisors-wrap {
-        padding-top: 30px;
-    }
-    .bord-advisors-wrap .empolyees-testimony-title p {
-        margin-bottom: 0px;
-        line-height: 22px;
-    }
-    .subscribe-form input[type="submit"] {
-        background-position-x: calc(50% - -44px);
-        padding-right: 78px;
-    }
+  #menu_holder {
+    position: absolute;
+    width: 0;
+    left: 0;
+    right: 0;
+    background: var(--primary);
+    top: 0px
+  }
+
+  .slicknav_nav {
+    display: block !important
+  }
+
+  .nav-toggler {
+    transition: all .3s ease
+  }
+
+  .nav-toggler.active span:first-child {
+    transform: rotateZ(45deg)
+  }
+
+  .nav-toggler.active span:last-child {
+    display: none
+  }
+
+  .nav-toggler.active span:nth-child(2) {
+    transform: rotateZ(-45deg);
+    margin-top: -11px
+  }
+
+  .menu-backdrop {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -webkit-transform: translateX(101%);
+    -ms-transform: translateX(101%);
+    transform: translateX(101%);
+    background: rgb(0 0 0 / 27%);
+  }
+
+  .header-bg .menu-backdrop {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  #menu_holder {
+    height: 100vh;
+    width: 280px;
+    left: inherit;
+    right: 0px;
+    bottom: 0px;
+    width: 0px;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: hidden;
+    border-radius: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+  }
+
+  .header.header-position #menu_holder {
+    top: 0px;
+  }
+
+  .mobile-menu-open#menu_holder {
+    visibility: visible;
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    width: 280px;
+    z-index: 3;
+  }
+
+  .nav-toggler.active span {
+    background-color: var(--white) !important;
+  }
+
+  nav.slicknav_nav.slicknav_hidden {
+    padding-top: 80px;
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .slicknav_menu {
+    height: 100vh;
+    overflow: auto;
+    padding-bottom: 200px;
+  }
+
+  .header-top-inner {
+    padding: 8px 0px;
+  }
+
+  .breadcrumb {
+    padding-top: 2px;
+  }
+
+  header.header.header-position.header-bg .mobile-menu-open#menu_holder {
+    top: 0px;
+  }
+
+  button.nav-toggler.toggler-open.active {
+    position: fixed;
+    top: 35px;
+    right: 15px;
+  }
+
+  .goods-manufacturing-area {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .common-title h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 12px;
+  }
+  .common-title h4 {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .manufacturing-card-box {
+    padding-top: 30px;
+  }
+
+  .common-title h5 {
+    line-height: 28px;
+    font-size: 16px;
+  }
+  .our-extensive-range {
+    padding: 60px 0;
+    padding-left: 20px;
+  }
+  .extensive-text-content {
+    padding: 10px 0;
+  }
+  .extensive-text-content h2 {
+      font-size: 24px;
+      line-height: 32px;
+      padding-bottom: 12px;
+  }
+  .extensive-text-content p {
+    line-height: 22px;
+  }
+  .our-leather-brand-area .common-title ul {
+    padding-top: 30px;
+  }
+  .our-leather-brand-area .common-title h5 {
+    font-size: 18px;
+  }
+  .our-leather-brand-area .common-title ul li {
+      font-size: 16px;
+      background-size: 22px auto;
+      line-height: 24px;
+      padding-left: 35px;
+      background-position: top 7px left;
+      margin-bottom: 20px;
+  }
+  .our-leather-brand-area {
+    padding: 60px 0;
+  }
+  .voices-photo-box img{
+    display: none;
+  }
+  .voices-experience-content {
+    grid-template-columns: 5% 82% 5%;
+  }
+  .experience-area {
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+  .experience-area .common-title h2 {
+    padding-bottom: 20px;
+  }
+  .contant-us-form {
+      padding: 20px;
+  } 
+  .contant-us-form h3 {
+      padding-bottom: 30px;
+      font-size: 28px;
+      line-height: 1;
+  }
+  .form-control {
+    height: 42px;
+    font-size: 16px;
+  }
+  .form-group {
+    padding-bottom: 20px;
+  }
+  .form-check .row {
+      gap: 2px 0px;
+  }
+  .web-search-image-upload  {
+    flex-direction: column;
+  }
+  .file-upload-field,
+  .web-search-field {
+    width: 100%;
+  }
+  .chat-tool-check,
+  .web-search-image-upload {
+    gap: 0;
+  }
+  .form-group textarea {
+      height: 140px;
+  }
+  .location-map {
+    padding-right: 20px;
+  }
+  .contact-info ul li a, .contact-info ul li {
+      font-size: 18px;
+      line-height: 20px;
+   }
+   .contact-info ul {
+      gap: 20px;
+  }
+  .social-media-link ul li a {
+    font-size: 24px;
+  }
+  .social-media-link ul {
+      gap: 18px;
+  }
+  .our-extensive-photo iframe {
+    height: 350px !important;
+  }
+    section.our-extensive-range.extensive-reverse.location-map {
+      padding-top: 0px;
+      padding-right: 20px;
+  }
+  .contant-us-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .blog-section-area {
+    padding-top:60px;
+    padding-bottom: 60px;
+  }
+  .blog-slider-area {
+    padding-top: 20px;
+  }
+  .slicknav_nav li ul li:last-child {
+      border-bottom: none;
+  }
+  .slicknav_nav .slicknav_row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+    .slicknav_nav .slicknav_arrow::before {
+      content: '\f078'; 
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900; 
+      font-size: 16px;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      line-height: 10px;
+  }
+  .banner-info-text h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .banner-info-text .work-button {
+    width: 186px;
+    padding: 10px;
+    height: 50px;
+  }
+  .banner-info-text h1  {
+    padding-bottom: 30px;
+  }
+  .description-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .description-area p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .category-list-content ul {
+    flex-direction: column;
+  }
+  .impact-factors-area,
+  .product-categories-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .impact-factors-item-box  {
+    flex-direction: column;
+  }
+  .impact-factors-title h2 {
+      font-size: 40px;
+  }
+  .impact-factors-title {
+      padding-bottom: 50px;
+  }
+  .impact-factors-info, .impact-factors-photo {
+    width: 100%;
+  }
+  .impact-factors-info {
+    padding: 20px 0px 20px 0px;
+  }
+  .impact-factors-info h3 {
+      font-size: 24px;
+      line-height: 33px;
+      padding-bottom: 15px;
+  }
+  .sustainable-item-inner {
+    flex-direction: column;
+  }
+  .sustainable-item-photo img,
+  .sustainable-item-photo {
+    width: 100%;
+  }
+  .ustainable-item-info {
+    width: 100%;
+    padding: 0px;
+    padding-top: 20px;
+  }
+  .sustainable-item-box {
+      padding: 60px 20px;
+      padding-bottom: 30px;
+  }
+  .attempt-title h2 {
+      font-size: 40px;
+  }
+  .sustainable-initiatves-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .sustainable-item-inner {
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+  }
+  .sustainable-initiatves-area .common-title {
+      padding-bottom: 20px;
+  }
+  .members-list-slider .owl-prev {
+    margin-left: 0px;
+  }
+  .members-list-slider .owl-next {
+    margin-right: 0px;
+  }
+  .experience-area {
+    padding-bottom: 60px;
+  }
+  .impact-factors-area {
+    padding-bottom: 20px;
+  }
+  .contant-us-area .common-title h2 {
+      line-height: 38px;
+  }
+  .footer-area {
+    padding-top: 60px;
+  }
+  .leather-story-photo {
+    width: 100%;
+  }
+  .leather-story-photo img {
+    width: 100%;
+  }
+  .leather-story-info {
+      padding-left: 0px;
+      padding-top: 30px;
+      width: 100%;
+  }
+  .leather-story-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .leather-story-info p:last-child {
+    margin-bottom: 0px;
+  }
+  .leather-crafing-content .impact-factors-info {
+    padding: 20px 0px;
+  }
+  .leather-crafing-content .impact-factors-info h4 {
+      font-size: 24px;
+      padding-bottom: 15px;
+      line-height: 34px;
+  }
+  .impact-factors-info p {
+    margin-bottom: 10px;
+  }
+  .secrscription-white {
+    padding-top: 0px;
+  }
+  .typefo-leather-area .impact-factors-info h4 {
+      padding-bottom: 20px;
+  }
+  .attempt-inner-bg .impact-factors-info h4 {
+      margin-bottom: 18px;
+  }
+  .attempt-inner-bg {
+      padding-top: 60px;
+      padding-bottom: 30px;
+  }
+  .attempt-inner-bg .attempt-title {
+      top: -75px;
+  }
+  .inner-banner-2 .banner-info-text h1 {
+    font-size: 38px;
+  }
+  .banner-info-text h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .aboutus-area .common-title {
+      padding-top: 14px;
+      padding-bottom: 30px;
+  }
+  .aboutus-area .common-title h2 {
+      font-size: 22px;
+      line-height: 32px;
+  }
+  .about-information-box {
+    flex-direction: column;
+  }
+  .about-info-photo {
+    width: 100%;
+  }
+  .about-info-photo img {
+    width: 100%;
+  }
+  .about-info-text {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 20px;
+  } 
+  .about-info-text h2 a, .about-info-text h2 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 8px;
+  }
+  .about-info-text h4 {
+      line-height: 30px;
+      font-size: 20px;
+      margin-bottom: 16px;
+  }
+  .about-info-text p{
+    margin-bottom: 16px;
+  }
+  .about-information-box {
+      padding-bottom: 10px;
+      margin-bottom: 40px;
+  }
+  .about-info-text ul li {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .accordion-box {
+    padding-top: 30px;
+  }
+  .our-member-content {
+    margin-top: 25px;
+  }
+  .our-member-content .common-title {
+    padding-top: 30px !important;
+  }
+  .our-member-content .common-title h6 {
+    font-size: 14px;
+  }
+  .review-content-area .our-member-content {
+      padding: 30px 40px;
+  } 
+  .product-price-list h3 {
+    font-size:26px;
+    padding-bottom: 20px;
+  }
+  .product-price-list {
+    padding-top: 30px;
+  }
+  .price-list-item li {
+      width: calc((100% - 45px) / 2);
+  }
+  .common-title  h6 {
+    font-size: 14px;
+  }
+  .impact-factors-area .product-price-list {
+    padding-top: 20px;
+  }
+  .testimonials-area{
+    padding: 60px 20px !important
+  }
+  .testimonials-title h2 {
+    font-size: 28px;
+  }
+  .testimonials-title {
+    padding-bottom: 40px;
+  }
+  .testimonials-single-item {
+    width: 90%;
+  }
+  .artistry-behind-area .common-title p,
+  .goods-manufacturing-area .common-title p {
+      font-size: 16px;
+      line-height: 24px;
+  }
+  .artistry-behind-area .common-title p br {
+    display: none;
+  }
+  .key-attributes-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .product-top-title h6, .product-top-title span {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .product-top-title h6 {
+      padding-top: 10px;
+  }
+  .product-top-title {
+      padding-bottom: 20px;
+  }
+  .key-attributes-area ul {
+    padding-top: 20px;
+  }
+  .key-attributes-area ul li {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .owl-carousel.sync2 {
+      padding-top: 20px;
+  }
+  .breadcrumb span {
+    line-height:20px ;
+  }
+  .breadcrumb {
+      gap: 8px;
+  }
+  .breadcrumb > span::after {
+    margin-left: 4px;
+  }
+
 }
 
-@media only screen and (max-width: 400px) {
-    .btn {
-        font-size: 14px;
-        padding: 5px 14px;
-        min-height: 45px;
-    }
-    .authorrization-info-box {
-        padding: 34px 16px 24px 16px;
-        margin-top: -30px;
-    }
-    .authorization-title-inner {
-        gap: 8px;
-    }
-    
-}
+@media screen and (max-width: 768px) {
+  .manufacturing-item {
+    width: 100%;
+  }
+  .manufacturing-card-box {
+    flex-wrap: wrap;
+  }
 
-@media only screen and (max-width: 360px) {
-    .prior-authorization-title h3 {
-        font-size: 14px;
-    }
-    .prior-authorization-title {
-      width: 260px;
-    }
-    .service-contnet-wrap .pagination-wrap {
-        margin-top: 40px;
-    }
-}
+  .manufacturing-item::after {
+    display: none;
+  }
 
-/*job page*/
-@media only screen and (max-width: 991px) {
-    .single-job-post .job-title {
-        width: 100%;
-        min-height: 64px;
-        margin-bottom: 15px;
-        padding-right: 0;
-    }
-    .single-job-post .job-inner .salary-box {
-        width: 100%;
-        margin-top: 0px;
-        margin-bottom: 15px;
-    }
-    .single-job-post .job-inner .experience-box {
-        width: 100%;
-        margin-top: 0px;
-        margin-bottom: 15px;
-    }
-    .single-job-post .job-inner .apply-btn {
-        width: 100%;
-        text-align: left;
-    }
-    .single-job-post .job-title:before,
-    .single-job-post .job-inner .salary-box:before {
-        display: none;
-    }
-    .job-sidebar {
-        margin-left: 0;
-    }
-    .job-details {
-        padding-bottom: 60px;
-    }
-    .testimonial-blog  .case-study-title h2 {
-        padding-top: 20px;
-    }
-    .our-client-video-review {
-        padding-top: 24px;
-        padding-bottom: 70px;
-    }
-    .client-review-single {
-        padding: 20px 18px;
-    }
-    .client-review-info p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .client-review-video {
-        margin-bottom: 10px;
-    }
-    .read-leaer-more {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .client-review-info .review-title {
-        margin-top: 6px;
-    }
-    .slider-custom-desing .owl-nav {
-        bottom: -10px;
-    }
-    .team-title h2 {
-        padding-bottom: 0px;
-    }
-    .team-title h6 {
-        padding-bottom: 0px;
-    }
-    .banner-area::before {
-        bottom: 0px;
-    }
-}
-@media only screen and (max-width: 599px) {
-    .single-job-post .job-header .info {
-        float: none;
-        display: block;
-    }
-    .single-job-post .job-header .number {
-        float: none;
-        display: block;
-        margin-top: 5px;
-    }
-    .job-details-content .upper-box .inner-box {
-        padding: 0;
-    }
-    .job-details-content .social-box {
-        margin-bottom: 40px;
-    }
-    .placejob-section {
-        position: relative;
-        padding-bottom: 50px;
-    }
-    .case-study-title h2 {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    .our-team-item {
-        width: 100%;
-    }
-    .footer-logobox ul li {
-        max-width: 120px;
-    }
-    .footer-logobox ul li img {
-        width:100%;
-    }
-    .footer-busniss-info h3 {
-        word-break:break-all;
-    }
-}
-@media only screen and (max-width: 499px) {
-    .job-details-content .social-box .social-links {
-        text-align: center;
-    }
-    .job-details-content .social-box .social-links li {
-        float: none;
-    }
-}
-@media only screen and (max-width: 399px) {
-    .single-job-post .job-title {
-        padding-left: 0px;
-    }
-    .single-job-post .job-title figure {
-        margin: 0;
-    }
-    .single-job-post .job-title .company-logo {
-        position: relative;
-    }
+  .manufacturing-card-box {
+    padding-top: 0px;
+    margin-top: 0px;
+    gap: 15px;
+  }
 
-    .placejob-section .form-inner .title-inner {
-        padding-left: 0px;
-    }
-    .placejob-section .form-inner .title-inner .icon-box {
-        position: relative;
-        top: 0px;
-        margin-bottom: 15px;
-    }
-    .cost-saving-btn {
-        width: 100%;
-        min-width: 100%;
-    }
-}
+  .manufacturing-item {
+    padding-bottom: 0px;
+  }
 
-@media only screen and (max-width: 370px) {
-    .banner-content h1 {
-        font-size: 24px;
-        padding-bottom: 7px;
-    }
-
-    .banner-content h4 {
-        font-size: 16px;
-        padding-bottom: 10px;
-        line-height: 26px;
-    }
-    .banner-content h4 span {
-        font-size: 20px;
-    }
-    .banner-content h4 span::after {
-        width: 40px;
-        height: 18px;
-    }
-    .banner-content h4 span::after {
-        bottom: -11px;
-    }
-    .btn {
-        font-size: 14px;
-    }
-    .outsourcing-title h2 {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .services-info h6 {
-        font-size: 14px;
-    }
-    .secure-delivery-list-bg ul li {
-        font-size: 14px;
-    }
-    .testimonials-box-full .client-text-quote h5 {
-        font-size: 14px;
-        line-height: 22px;
-    }
-    .testimonials-box-full .common-btn a {
-        font-size: 14px;
-        height: 42px;
-    }
-    .prior-authorization-title {
-        width: 240px;
-    }
-    .prior-authorization-title {
-        width: 260px;
-    }
-    .common-btn a {
-        font-size: 12px;
-        height: 40px;
-    }
-    .client-photo {
-        width: 100%;
-        min-width: 100%;
-    }
-    .common-title h2 {
-        font-size: 20px;
-    }
-    .partner-login a {
-        font-size: 14px;
-        gap: 5px;
-    }
-    .partner-login ul li a {
-        padding: 0px 6px;
-        font-size: 13px;
-    }
-    .partner-login a {
-        font-size: 12px;
-    }
-    .sidebar-title h6 {
-        font-size: 18px;
-    }
-    .btn {
-        font-size: 13px;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .inner-banner .banner-content h1 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-     .breadcrumb a, .breadcrumb span {
-        font-size: 12px;
-    }
-     .endocrine-icon img {
-        max-width: 120px;
-    }
-     .endocrine-icon::before {
-        bottom: 14px;
-        left: 20px;
-    }
+  .goods-manufacturing-area::after {
+    display: none;
+  }
+  .artistry-behind-title h5 {
+      font-size: 18px;
+  }
+  .banner-info-text h1 br {
+    display: none;
+  }
+  .banner-area {
+    margin-top: 65px;
+  }
+  .details-box h5 {
+    font-size: 18px;
+  }
+  .details-box a img {
+    width: 35px;
+  }
+  .artistry-behind-area {
+    padding-top:60px;
+    padding-bottom: 70px;
+  }
+  .artistry-behind-item {
+    width: 100%;
+  }
+  .common-title h5 {
+    line-height: 22px;
+  }
+  .artistry-behind-wrap {
+      padding-top: 40px;
+      gap:30px;
+  }
+  .details-box a {
+      height: 65px;
+  }
+  .extensive-range-inner  {
+    flex-direction: column;
+  }
+  .extensive-text-content {
+    width: 100%;
+    text-align: center;
+  }
+  .our-extensive-photo {
+    position: initial;
+    max-width: 100%;
+    padding-top: 30px;
+  }
+  .our-extensive-range {
+    padding-right: 20px;
+  }
+  .work-button {
+    font-size: 18px;
+  }
+  .leather-brand-r-wrap {
+      padding-top: 15px;
+  }
+  .owl-dots {
+    margin-top: 20px;
+  }
+  .extensive-reverse .extensive-range-inner {
+    flex-direction: column;
+  }
+  .extensive-reverse.our-extensive-range {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .extensive-text-content {
+    padding: 0px;
+  }
+  .extensive-reverse .our-extensive-photo {
+    padding-top: 10px;
+  }
+  .voices-experience-content {
+    grid-template-columns: 100%;
+    position: relative;
+  }
+  .voices-photo-box.nav-arrow-left {
+      position: absolute;
+      bottom: -24px;
+      left: 28px;
+      z-index: 2;
+  }
+  .voices-photo-box.nav-arrow-right {
+      position: absolute;
+      right: 24px;
+      bottom: -44px;
+      z-index: 2;
+  }
+  .voices-experience-photo {
+      width: 100%;
+  }
+  .voices-experience-item.d-flex {
+      flex-direction: column;
+  }
+  .voices-experience-info {
+    width: 100%;
+  }
+  .voices-experience-info h4 {
+      font-size: 20px;
+      line-height: 34px;
+  }
+  .voices-experience-info p {
+    line-height: 24px;
+  }
+  .experience-area .common-title h2 {
+    margin-bottom: 0px;
+  }
+  .craftsmanship-area .common-title h2 {
+      font-size: 30px;
+      line-height: 42px;
+      margin-bottom: 19px;
+  }
+  .craftsmanship-area .common-title p {
+      margin-bottom: 26px;
+  }
+  .craftsmanship-area {
+      padding: 60px 0px;
+  }
+  .craftsmanship-area .common-title p br {
+    display: none;
+  }
+  .craftsmanship-area .common-title p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .craftsmanship-area .work-button {
+    padding: 7px 20px
+  }
+  .btn-submit {
+      padding: 5px 50px;
+  }
+  .contact-info ul li span a {
+      margin-bottom: 8px;
+  }
+  .contact-info ul li a, .contact-info ul li {
+      font-size: 16px;
+      text-align: start;
+  }
+  .social-media-link ul,
+  .contact-info ul {
+    padding-left: 0px;
+  }
+  .our-extensive-photo iframe {
+    height: 250px !important;
+  }
+  .map-box {
+      padding-top: 20px;
+  }
+  .contact-info ul {
+      gap: 14px;
+  }
+  .blog-slider-area {
+    padding: 0px;
+    padding-top: 20px;
+  }
+  .blog-slider .owl-nav {
+    top:initial;
+    bottom: 0px;
+  }
+  .blog-slider .owl-next {
+    margin-right: 0px;
+    margin-top: -10px;
+  }
+  .blog-slider .owl-prev {
+    margin-left: 0px;
+    margin-top: -10px;
+  }
+  .owl-nav i {
+      font-size: 22px;
+  }
+  .blog-slider .owl-dots {
+    margin-top: 34px;
+  }
+  .impact-factors-title {
+      padding-bottom: 20px;
+  }
+  .impact-factors-title h2 {
+      font-size: 30px;
+  }
+  .product-categories-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .product-categories-content {
+      padding-bottom: 40px;
+  }
+  .product-categories-item .row {
+    gap:20px 0px
+  }
+  .impact-factors-info h6 {
+    padding-bottom: 15px;
+  }
+  .members-list-photo {
+    max-width: 150px;
+  }
+  .members-info p {
+    margin-bottom: 0px;
+  }
+  .footer-logo {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .footer-nav ul {
+      gap: 12px;
+  }
+  .footer-nav {
+    padding-bottom: 35px;
+  }
+  .footer-area {
+      padding-top: 40px;
+  }
+  .footer-nav ul li {
+    padding-right: 12px;
+  }
+  .copyright-box p {
+    line-height: 18px;
+  }
+  .banner-image::after {
+      content: '';
+      position: absolute;
+      background: #ffffff33;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+  }
+  .inner-banner-2 .banner-image::after {
+    content: none;
+  }
+  .breadcrumb span i {
+      font-size: 20px;
+  }
+  .aboutus-area {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .aboutus-area .common-title{
+    padding-top:0px;
+  }
+  .description-contanct-box .common-title h4{
+    padding-bottom: 20px;
+  }
+  .inner-banner-2  .banner-info {
+    min-height: 300px;
+  }
+  .accordion-header h6 {
+      padding: 15px 20px;
+      font-size: 16px;
+      line-height: 26px;
+  }
+  .accordion-box {
+    padding-top: 0px;
+  }
+  .accordion-content {
+      padding: 15px 20px;
+      margin-top: 20px;
+  }
+  .accordion-content p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .our-member-item {
+    padding:30px 20px;
+  }
+  .our-member-item  {
+    flex-direction: column;
+  }
+  .member-photo {
+    width: 100%;
+    text-align: center;
+  }
+  .member-info {
+      padding-left: 0px;
+      padding-top:30px;
+      width: 100%;
+      text-align: center;
+  } 
+  .menmber-name h4 {
+      font-size: 22px;
+      line-height: 30px;
+      padding-bottom: 12px;
+  }
+  .member-info p {
+    line-height: 24px;
+  }
+  .our-member-content .common-title h6, .our-member-content .common-title h4 {
+    line-height: 26px;
+  }
+  .our-member-content .common-title {
+    padding-bottom: 0px;
+  }
+  .innner-banner-3 .banner-info {
+      min-height: 320px;
+  }
+  .review-content-area .member-photo {
+    margin: 0 auto;
+    width: 140px;
+    min-width: 140px;
+  }
+  .review-content-area .member-info {
+    width: 100%;
+    padding-left: 0px;
+    padding-top:20px;
+  }
+  .review-content-area .our-member-content {
+    padding: 20px;
+  }
+  .review-content-area .menmber-name h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .review-content-area h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .review-content-area .member-info p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .review-content-area .our-member-item {
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+  }
+  .price-list-item li {
+    width: 100%;
+    padding: 8px 6px;
+  }
+  .common-title  h6 {
+    font-size: 16px;
+  }
+  .common-title h4 {
+    font-size: 18px;
+  }
+  .product-price-list h3 {
+      font-size: 22px;
+      line-height: 28px;
+  }
+  .description-area {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .common-title  h6 {
+    line-height: 24px;
+  }
+  .common-title h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .common-title h6 br {
+    display: none;
+  }
+  .impact-factors-area .price-list-item li {
+    width: 100%;
+  }
+  .impact-factors-area .product-price-list {
+    padding-top: 10px;
+  }
+  .testimonials-single-item {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .testimonials-info-box {
+    width: 100%;
+    padding: 0px;
+    padding-top: 20px;
+  }
+  .testimonials-video-box {
+      min-width: 100%;
+      width: 100%;
+  }
+  .testimonials-video-box img {
+    width: 100%;
+  }
+  .testimonials-area {
+      padding: 40px 15px !important;
+  }
+  .testimonials-title h2 {
+      font-size: 22px;
+  }
+  .testimonials-single-item {
+    padding-bottom: 30px;
+  }
+  .banner-slider-item {
+      height: 330px;
+  }
+  .product-top-title h6, .product-top-title span {
+    font-size: 18px;
+  }
+  .inner-banner-2 .banner-info-text h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .key-attributes-area {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
 }
