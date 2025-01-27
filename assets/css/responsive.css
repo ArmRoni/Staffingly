@@ -1,31 +1,21 @@
-/* @media screen and (min-width: 1925px) {
-  .container {
-    max-width: 2400px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 2500px) {
-  .custom-py {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-
-  .container {
-    max-width: 2800px;
-    margin: 0 auto;
-  }
-} */
-
 @media screen and (max-width: 1780px) {
   .container {
     max-width: 1240px;
   }
+  
+  .team-member-photo img {
+    height:266px;
+  }
 
+  .chart-container {
+    padding-bottom: 60px;
+  }
   .logo {
     max-width: 280px;
   }
-
+  .our-team-area .our-member-content {
+      padding: 75px 70px;
+  }
   .header {
     padding: 20px 0px;
   }
@@ -67,8 +57,7 @@
       line-height: 65px;
       margin-bottom: 40px;
   }
-  .our-extensive-photo iframe {
-    width: 100% !important;
+  .our-extensive-map iframe  {
     height: 540px !important;
   }
   .contact-info ul li a, .contact-info ul li {
@@ -97,9 +86,6 @@
   .banner-area {
       margin-top: 80px;
   }
-  /* .banner-info {
-    min-height: 500px;
-  } */
   .inner-banner .banner-image img {
     width: 100%;
     height: 100%;
@@ -108,9 +94,9 @@
   .banner-info-text h1 {
     padding-bottom: 40px;
   }
-  
+  .attempt-title h2,
   .impact-factors-title h2 {
-    font-size: 100px;
+    font-size: 90px;
   }
   .description-area {
     padding-top: 90px;
@@ -209,6 +195,136 @@
       line-height: 32px;
       margin-bottom: 0px;
   }
+  .company-detaisl-table {
+    padding-top: 0px;
+  }
+  .our-work-area .product-top-title p {
+      font-size: 20px;
+      line-height: 32px;
+  }
+  .our-team-info {
+    width: 56%;
+    padding-right: 64px;
+  }
+  .our-team-photo {
+    width: 44%;
+  }
+  .ceo-text-inner h6, .ceo-text-inner h3 {
+    font-size: 34px;
+   }
+   .ceo-text-inner h6 {
+      font-size: 24px !important;
+      line-height: 28px;
+  }
+  .delivery-details-info h2 {
+      line-height: 40px;
+      padding-bottom: 20px;
+      font-size: 30px;
+  }
+  .delivery-details-info {
+    padding-left: 55px;
+  }
+  .delivery-details-info p {
+    font-size: 16px;
+  }
+  .read-more {
+    font-size: 16px;
+  }
+  .growth-box {
+    margin-top: 20px;
+  }
+  .growth-box h4 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .growth-box p {
+    line-height: 24px;
+  }
+  .growth-box {
+    padding:14px 20px;
+    width: 190px;
+  }
+  .blog-main-info p {
+      margin-bottom: 0px;
+      font-size: 16px;
+      line-height: 24px;
+  }
+  .blog-info-title {
+      padding-bottom: 16px;
+  }
+  .single-review-photo {
+      min-width: 280px;
+      width: 280px;
+  }
+  .single-review-details-profile {
+      gap: 50px;
+  }
+  .single-review-details-profile h4 {
+    font-size: 24px;
+    padding-right: 100px;
+  }
+  .single-review-info h6::after, .single-review-details-profile h4::after {
+    width: 90px;
+  }
+  .single-review-info h6 {
+    font-size: 16px;
+    padding-left: 100px;
+    padding-bottom: 0px;
+  }
+  .single-review-info h6::after {
+    top:14px
+  }
+  .review-single-area .our-member-content h2 {
+    padding-top: 60px;
+  }
+  .blj-info-icon {
+    max-width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .blj-info-item p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .blj-info-item h3 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .git-quote-btn {
+    top:35%
+  }
+
+  .impactfactors-styleTow .impact-factors-info {
+    width: 54%;
+    padding: 67px 45px;
+  }
+  .our-team-title h2 {
+    font-size: 72px;
+    padding-bottom: 40px;
+  }
+  .membar-name h6 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .out-team-new .team-member-info h5 {
+      font-size: 24px;
+      line-height: 30px;
+  }
+  .out-team-new .team-member-info span {
+      font-size: 18px;
+      line-height: 28px;
+  }
+  .menufacturing-step-text ul li strong {
+      font-size: 22px;
+      margin-right: 5px;
+  }
+  .inner-banner-2 .banner-info-text h1 {
+    font-size: 45px;
+  }
 }
 
 
@@ -216,23 +332,26 @@
   .container {
     max-width: 1100px;
   }
-
+  .team-member-photo img {
+    height:230px;
+  }
   .menu-navbar ul {
     gap: 40px;
+  }
+  .membar-name h6 {
+    padding: 16px;
   }
 
   .logo {
     max-width: 268px;
   }
-
   .header {
     padding: 18px 0px;
   }
-
   .manufacturing-item h4 {
     font-size: 20px;
   }
-
+  .goods-manufacturing-area h1,
   .common-title h2 {
     font-size: 38px;
   }
@@ -387,6 +506,123 @@
     height: 100%;
     object-fit: cover;
   }
+  .our-team-area .our-member-content {
+      padding: 90px 70px;
+  }
+  .ceo-name-box h2 {
+      font-size: 40px;
+      line-height: 40px;
+  }
+  .ceo-name-box h6 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .our-ceo-message-area .our-member-content {
+      padding: 80px 34px 50px 34px;
+  }
+  .blog-main-content {
+    gap: 30px 20px;
+    padding-top: 80px;
+  }
+  .blog-main-item {
+      width: calc((100% - 40px) / 3);
+  }
+  .review-single-area .our-member-content h2 {
+    font-size: 36px;
+  }
+  .product-delevery-area .product-price-list li {
+    padding: 10px 35px;
+  }
+  .impactfactors-styleTow .impact-factors-info {
+      width: 50%;
+      padding: 50px 35px;
+      margin-left: 35px;
+  }
+  .impactfactors-styleTow .impact-factors-reverse .impact-factors-info {
+    margin-right: 35px;
+  }
+  .impactfactors-styleTow .impact-factors-info h4 {
+      font-size: 26px;
+      line-height: 30px;
+      padding-bottom: 23px;
+  }
+  .impactfactors-styleTow .impact-factors-info p {
+      font-size: 18px;
+      line-height: 30px;
+  }
+
+  .aboutus-area .impactfactors-styleTow .impact-factors-info {
+    padding: 50px 35px;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-info h4 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-photo {
+    padding: 50px 0px;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-info h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-info ul li,
+  .aboutus-area .impactfactors-styleTow .impact-factors-info h6,
+  .aboutus-area .impactfactors-styleTow .impact-factors-info p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .attempt-title h2, .impact-factors-title h2 {
+      font-size: 80px;
+  }
+  .our-team-info .ceo-name-box h2 {
+    font-size: 42px;
+    line-height: 42px;
+    padding-top: 24px;
+    padding-bottom: 0px;
+  }
+  .ceo-text-inner {
+    padding-top:40px;
+    margin-bottom: 30px;
+  }
+  .ceo-text-inner h5 {
+    font-size: 26px;
+    color: #15294F;
+    line-height: 26px;
+    padding-bottom: 10px;
+  }
+  .ceo-text-inner h3 {
+      font-size: 24px;
+      padding:8px 18px;
+  }
+  .menufacturing-services-area .impact-factors-info h3 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 16px;
+    margin-bottom: 17px;
+  }
+  .menufacturing-step-text ul li strong {
+      font-size: 20px;
+      line-height: 1;
+      margin-right: 3px;
+  }
+  .menufacturing-step-text ul li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .menufacturing-step-text ul {
+    padding-left: 20px;
+  }
+  .menufacturing-step-text ul li:nth-child(2) {
+      padding-right: 80px;
+  }
+  #myChart {
+    background-size: 94.5% 70%;
+  }
+  .key-attributes-new .product-content-wrap ul li {
+    font-size: 18px;
+  }
+
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -397,6 +633,10 @@
     padding-right: 75px;
     padding-left: 0px;
   }
+  
+   .team-member-photo img {
+   height:220px;
+   }
 
   .extensive-text-content h2 {
       font-size: 28px;
@@ -452,7 +692,64 @@
   .banner-slider-item {
     height: 510px;
   }
-  
+  .ceo-text-inner {
+      padding-top: 45px;
+  }
+  .ceo-text-inner h3 { 
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .ceo-text-inner h6 {
+    font-size: 18px !important;
+    line-height: 18px;
+  }
+  .ceo-text-inner::after {
+    height: 210px;
+  }
+  .our-ceo-message-area .our-team-info {
+    padding-left: 24px;
+  }
+  .ceo-name-box h2 {
+      font-size: 28px;
+      line-height: 28px;
+  }
+  .ceo-name-box h6 {
+    font-size: 16px;
+    line-height: 30px;
+  }  
+  .delivery-details-info {
+    padding-left: 40px;
+  }
+  .blj-info-item {
+    width: 25%;
+  }
+  .blj-info-content {
+    justify-content: center;
+  }
+  .our-leather-brand-area .common-title {
+      padding-bottom: 65px;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-info {
+      padding: 50px 35px;
+  }
+  .ceo-text-inner {
+        padding-top: 30px;
+  }
+  a.readmoreBtn {
+    position: initial;
+    margin-top: -20px;
+    width: fit-content;
+    margin-left: 25px;
+  }
+  .readmoreBtn-2 {
+      position: initial;
+      width: fit-content;
+      margin-left: 26px;
+  }
+  #myChart {
+    background-position: left 37px center;
+    background-size: 94.5% 64%;
+  }
 }
 
 
@@ -463,6 +760,11 @@
 
   .logo {
     max-width: 240px;
+  }
+  .ceo-text-inner h3 {
+      font-size: 24px !important;
+      line-height: 26px !important;
+      padding: 8px 18px !important;
   }
 
   .menu-navbar ul li {
@@ -550,7 +852,47 @@
   .impact-factors-area .price-list-item li {
       width: calc((100% - 30px) / 2);
   }
-  
+  .our-work-area .product-top-title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our-team-info {
+    width: 55%;
+      padding-right: 30px;
+  }
+  .our-team-memberbox {
+      gap: 50px 20px;
+  }
+  .team-member-single {
+      width: calc((100% - 60px) / 4);
+  }
+  .team-member-info {
+      padding-top: 15px;
+  }  
+  .blj-info-item {
+    width:40%;
+  } 
+  .blj-info-icon {
+    max-width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+ } 
+  .blj-info-item p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .blj-info-item h3 {
+    font-size: 26px;
+    line-height: 1;
+  }
+  .out-team-new .team-member-single {
+      width: calc((100% - 40px) / 3);
+  } 
+  #myChart {
+      background-position: left 44px center;
+      background-size: 93% 60%;
+  }
 }
 
 
@@ -562,7 +904,13 @@
   .impact-factors-photo  img{
     width: 100%;
   }
+  .team-member-photo img {
+    height:auto;
+  }
 
+  .our-team-member-full {
+      padding-top: 40px;
+  }
   .custom-py {
     padding-left: 20px;
     padding-right: 20px;
@@ -579,6 +927,9 @@
 
   nav.menu-navbar {
     display: none
+  }
+  .goods-manufacturing-area::after {
+    bottom: 80px;
   }
 
   .nav-toggler {
@@ -729,7 +1080,7 @@
     padding-top: 60px;
     padding-bottom: 80px;
   }
-
+  .goods-manufacturing-area h1,
   .common-title h2 {
     font-size: 28px;
     line-height: 38px;
@@ -840,7 +1191,7 @@
   .social-media-link ul {
       gap: 18px;
   }
-  .our-extensive-photo iframe {
+  .our-extensive-map iframe {
     height: 350px !important;
   }
     section.our-extensive-range.extensive-reverse.location-map {
@@ -908,7 +1259,7 @@
     flex-direction: column;
   }
   .impact-factors-title h2 {
-      font-size: 40px;
+      font-size: 60px;
   }
   .impact-factors-title {
       padding-bottom: 50px;
@@ -941,7 +1292,7 @@
       padding-bottom: 30px;
   }
   .attempt-title h2 {
-      font-size: 40px;
+      font-size: 60px;
   }
   .sustainable-initiatves-area {
     padding-top: 60px;
@@ -961,7 +1312,7 @@
     margin-right: 0px;
   }
   .experience-area {
-    padding-bottom: 60px;
+    padding-bottom: 110px;
   }
   .impact-factors-area {
     padding-bottom: 20px;
@@ -1020,6 +1371,7 @@
   .inner-banner-2 .banner-info-text h1 {
     font-size: 38px;
   }
+  .banner-info-text p,
   .banner-info-text h4 {
     font-size: 20px;
     line-height: 30px;
@@ -1086,17 +1438,12 @@
     font-size:26px;
     padding-bottom: 20px;
   }
-  .product-price-list {
-    padding-top: 30px;
-  }
+ 
   .price-list-item li {
       width: calc((100% - 45px) / 2);
   }
   .common-title  h6 {
     font-size: 14px;
-  }
-  .impact-factors-area .product-price-list {
-    padding-top: 20px;
   }
   .testimonials-area{
     padding: 60px 20px !important
@@ -1151,27 +1498,419 @@
   .breadcrumb > span::after {
     margin-left: 4px;
   }
+  .product-content-wrap {
+      padding-top: 60px;
+  }
+  .our-work-title-middle {
+      margin-top: 60px;
+  }
+  .description-area .common-title h4 br {
+    display: none;
+  }
 
+  .data-slides-items-3 .owl-carousel.sync2,
+  .data-slides-items-6 .owl-carousel.sync2,
+  .data-slides-items-4 .owl-carousel.sync2 {
+    max-width: 500px;
+  }
+
+  .company-overview-area {
+      padding-top: 0px;
+  }
+  .company-overveiw-title {
+      padding: 60px 20px;
+  }
+  .company-overview-area .product-content-wrap {
+      margin-top: 60px;
+      padding-bottom: 60px;
+  }
+  .our-work-area .product-top-title p {
+      font-size: 16px;
+      line-height: 24px;
+      padding-top: 16px;
+  }
+  .chart-container {
+      padding: 60px 18px;
+      background: #e0e2e2;
+  }
+  .chart-box h6 {
+        font-size: 22px;
+        line-height: 33px;
+        padding-bottom: 15px;
+  }
+  .company-detaisl-table td {
+      padding: 10px 20px;
+      font-size: 16px;
+      line-height: 24px;
+  }
+  .chat-tool-group .wpcf7-list-item,
+  .wpcf7-list-item {
+    width: 100%;
+  }
+  .chat-tool-group .form-check-input,
+  .form-check-input {
+    gap: 5px;
+  }
+  .our-team-area .our-member-content {
+    padding: 50px 30px;
+  }
+  .our-team-info h3 {
+      font-size: 26px;
+      line-height: 36px;
+      padding-bottom: 16px;
+  }
+  .our-team-info p {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 32px;
+  }
+  .btn-box .btn-submit {
+    padding: 6px 15px;
+    font-size: 15px;
+  }
+  .team-member-single {
+      width: calc((100% - 40px) / 3);
+  }
+  .our-team-memberbox {
+    justify-content: center;
+  }
+  .team-member-info h5 {
+      font-size: 18px;
+      line-height: 25px;
+      padding-bottom: 4px;
+  }
+  .team-member-info span {
+      font-size: 16px;
+      line-height: 24px;
+  }
+  .our-ceo-message-area .our-member-content {
+    padding: 50px 20px 10px 20px;
+  }
+  .blog-articles-area {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+  .order-delivery-details {
+    flex-direction: column;
+  }
+  .delivery-details-photo {
+      width: 100%;
+  } 
+  .delivery-details-photo img {
+    width: 100%;
+  }
+  .delivery-details-info {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  .delivery-details-info h2 {
+    line-height: 32px;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  .delivery-details-info p {
+    font-size: 17px;
+  }
+  .read-more {
+    font-size: 17px;
+  }
+  .growth-box h4 {
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 10px;
+  }
+  .blog-main-item {
+      width: calc((100% - 40px) / 2);
+  }
+  .experience-white-bg .voices-photo-box::after {
+    filter: brightness(1) invert(1);
+  }
+  .experience-white-bg .voices-experience-info {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .single-review-details-profile  {
+    flex-direction: column;
+  }
+  .single-review-info {
+    width: 100%;
+  }
+  .review-single-area .our-member-content h2 {
+      font-size: 28px;
+      padding-top: 20px;
+      
+  }
+  .single-review-details-profile h4 {
+    line-height: 34px;
+    padding-right: 60px;
+  }
+  .single-review-details-profile h4::after {
+    top:19px
+  }
+  .single-review-info h6::after, .single-review-details-profile h4::after {
+    width: 50px;
+  }
+  .single-review-info h6 {
+    padding-left: 60px;
+  }
+  .single-review-details-profile {
+      gap: 30px;
+  }
+  .single-review-photo {
+      min-width: 250px;
+      width: 250px;
+  }
+  .single-review-details-profile {
+      padding-bottom: 24px;
+      margin-bottom: 21px;
+  }
+  .review-single-area .our-member-content h2 {
+      font-size: 24px;
+      padding-top: 10px;
+  }
+  .review-single-area .contant-us-form {
+    margin-top: 60px;
+  }
+  .error-content h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .error-content p {
+    line-height: 24px;
+  }
+  .sample-desing-area  {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .sample-desing-step h3 {
+      font-size: 26px;
+      line-height: 36px;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      padding-top: 30px;
+  }
+  .sample-desing-area ul  {
+    padding: 10px 0px;
+  }
+
+  .sample-desing-area ul li {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 22px;
+  }
+  .sample-desing-area ul li strong {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .sample-desing-area h6 {
+    font-size: 22px;
+    line-height: 34px;
+    padding-left: 16px;
+  }
+  .sample-desing-step p::after, .sample-desing-area h6::after {
+      content: "";
+      width: 5px;
+      height: 5px;
+      left: 2px;
+      top: 13px;
+  }
+  .sample-desing-step p {
+      padding-left: 20px;
+      font-size: 16px;
+      line-height: 24px;
+      position: relative;
+  }
+  .sample-desing-step p::after {
+    top:10px;
+  }
+  .sample-desing-step h4 {
+      font-size: 22px;
+      line-height: 32px;
+      padding: 10px 0px;
+  }
+  .product-price-list h3 {
+    padding-top: 0px;
+  }
+  .product-delevery-area {
+    padding-bottom: 60px;
+  }
+  .our-work-area .product-content-wrap {
+    padding-top: 60px;
+  }
+  .key-attributes-area.slider-controller .product-content-wrap {
+    padding-top: 0px;
+  }
+  .wpforms-container .wpforms-field {
+    padding: 10px 0 !important;
+  }
+
+  .git-quote-btn {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 4px 15px;
+    right: -46px;
+    top:200px
+  }  
+  .get-quote-form-warp .contant-us-form {
+    padding: 24px 18px;
+  }
+  .get-quote-form-warp .contant-us-form h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .get-quote-form-warp .form-group {
+    padding-bottom: 10px;
+  }
+  .get-quote-form-warp .form-group label {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 4px;
+  }
+  .close-btn {
+    width: 27px;
+    height: 27px;
+    right: 15px;
+    top: 6px;
+  }
+  .sample-desing-area ul li::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-size: 16px auto;
+    top: 6px;
+    left: 0px;
+  }
+  .category-list-area {
+   padding-bottom:30px;
+  }
+  
+  .aboutus-area .impactfactors-styleTow .impact-factors-info,
+  .impactfactors-styleTow .impact-factors-info {
+      width: 100%;
+      padding:20px 0;
+      margin-top: 20px;
+      margin-left: 0px;
+      border: none;
+      border-top: 1px solid #DBCFB1;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-info {
+    padding-top: 20px !important;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-photo,
+  .impactfactors-styleTow .impact-factors-photo {
+    width: 100%;
+    padding: 0px;
+  } 
+  .impactfactors-styleTow .impact-factors-info h4 {
+    font-size: 24px;
+    line-height: 35px;
+    padding-bottom: 12px;
+  }
+  .impactfactors-styleTow .impact-factors-info p {
+      font-size: 16px;
+      line-height: 24px;
+  }
+  .our-leather-brand-area .common-title {
+      padding-bottom: 30px;
+  }
+  .impactfactors-styleTow .impact-factors-reverse .impact-factors-info {
+    margin-right: 0px;
+    border-right: none;
+  }
+  .our-leather-brand-area {
+    padding-bottom: 30px;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-info h2 {
+      font-size: 28px;
+      line-height: 38px;
+      padding-bottom: 5px;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-info h4 {
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+  .aboutus-area .impactfactors-styleTow .impact-factors-info ul {
+    padding-bottom: 18px;
+  }
+  .out-team-new .team-member-single {
+      width: calc((100% - 20px) / 2);
+  } 
+  .our-team-title h2 {
+    font-size: 42px;
+    padding: 20px 0px;
+  }
+  .menufacturing-step-text.active {
+    height: auto;
+  }
+  .menufacturing-services-area .impact-factors-reverse .impact-factors-info {
+    padding-right: 0px;
+  }
+  .menufacturing-services-area .impact-factors-info h5 {
+      font-size: 22px;
+      padding-left: 25px;
+      padding-bottom: 23px;
+      margin-left: 22px;
+  }
+  .menufacturing-step-text ul li {
+    margin-bottom: 20px;
+  }
+  .menufacturing-step-text ul li:nth-child(2) {
+    display: block;
+    padding-right: 0px;
+  }
+  .menufacturing-step-text.active ul li:nth-last-child(2) {
+    padding-right: 0px;
+  }
+  .menufacturing-step-text p + .readmoreBtn {
+    margin-left: 0px;
+  }
+  .menufacturing-step-text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .menufacturing-step-text.active p {
+    display: block;
+  }
+  .as-pagination-button  {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .as-pagination-buttons {
+      padding-top: 12px;
+  }
+  .key-attributes-new .product-content-wrap ul li {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .key-attributes-new .product-content-wrap ul {
+    padding-top:10px;
+  }
+  .key-attributes-new  .product-content-wrap {
+    padding-top: 0px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+
   .manufacturing-item {
     width: 100%;
   }
   .manufacturing-card-box {
     flex-wrap: wrap;
   }
-
   .manufacturing-item::after {
     display: none;
   }
-
   .manufacturing-card-box {
     padding-top: 0px;
     margin-top: 0px;
     gap: 15px;
   }
-
   .manufacturing-item {
     padding-bottom: 0px;
   }
@@ -1318,11 +2057,8 @@
   .contact-info ul {
     padding-left: 0px;
   }
-  .our-extensive-photo iframe {
+  .our-extensive-map iframe {
     height: 250px !important;
-  }
-  .map-box {
-      padding-top: 20px;
   }
   .contact-info ul {
       gap: 14px;
@@ -1386,7 +2122,10 @@
     padding-bottom: 35px;
   }
   .footer-area {
-      padding-top: 40px;
+      padding-top: 60px;
+  }
+  #scrollTopButton {
+    top:15px;
   }
   .footer-nav ul li {
     padding-right: 12px;
@@ -1572,5 +2311,381 @@
   .key-attributes-area {
       padding-top: 40px;
       padding-bottom: 40px;
+  }
+  .innner-banner-3 .banner-image::after {
+    content: none;
+  }
+  .key-attributes-area.our-work-area {
+      padding-top: 0px;
+  }
+  .our-work-area .our-work-title {
+      padding: 40px 15px;
+  }
+  .our-work-title h1, .our-work-title .common-title h2 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 15px;
+  }
+  .our-work-title .common-title p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .owl-item.current .product-item-small:after {
+      box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.5);
+  } 
+  .product-content-wrap {
+      padding-top: 42px;
+  }
+  .our-work-area .product-top-title p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .our-work-area .product-top-title p br {
+    display: none;
+  }
+  .our-work-title-middle h1, .our-work-title-middle .common-title h2 {
+    margin-bottom: 0px;
+  }
+  .our-work-title-middle {
+      margin-top: 40px;
+  }
+
+  .data-slides-items-3 .owl-carousel.sync2,
+  .data-slides-items-6 .owl-carousel.sync2,
+  .data-slides-items-4 .owl-carousel.sync2 {
+    max-width: 400px;
+  }
+  .goods-manufacturing-area h1 br,
+  .common-title h2 br{
+    display: none;
+  }
+  .company-overveiw-title .common-title p {
+    padding-bottom: 15px;
+  }
+  .company-overview-area .product-content-wrap {
+      margin-top: 40px;
+      padding-bottom: 40px;
+  }
+  .chart-box {
+    width: 100%;
+  }
+  .chart-container  {
+    flex-direction: column;
+    padding: 40px 15px;
+    gap:20px;
+  }
+  .chart-box h6 {
+      font-size: 20px;
+      line-height: 30px;
+      padding-bottom: 15px;
+  }
+  .company-detaisl-table {
+    overflow: auto;
+  }
+  .company-detaisl-table table {
+    width: 600px;
+  }
+  .voices-experience-info {
+    height: 100%;
+  }
+  .our-team-top  {
+    flex-direction: column;
+  }
+  .our-team-info {
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  .our-team-photo {
+    width: 100%;
+  }
+  .our-team-area .our-member-content {
+    padding: 30px 15px;
+  }
+  .our-team-info p {
+    margin-bottom: 20px;
+  }
+  .btn-box {
+    flex-wrap: wrap;
+  }
+  .team-member-single {
+      width: 100%;
+  }
+  .team-member-photo img {
+    width: 100%;
+  }
+  .our-team-memberbox {
+    gap: 30px 20px;
+  }
+  .our-ceo-message-area .our-team-photo {
+      width: 100%;
+      margin-left: 0px;
+      padding-top: 0px;
+  }
+  .our-ceo-message-area .our-member-content {
+    padding: 40px 15px 10px 15px;
+  }
+  .our-ceo-message-area .our-member-content {
+    padding: 38px 20px 10px 20px;
+  }
+  .ceo-name-box h6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .our-ceo-message-area .our-team-info {
+    width: 100%;
+    padding:0px;
+  }
+  .our-team-info h3 br {
+    display: none;
+  }
+  .our-team-info h3 {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+  .ceo-text-inner {
+    padding:0;
+    margin-bottom: 0px;
+    padding-top: 20px;
+  }
+  .ceo-text-inner h6 {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .our-ceo-message-area .our-team-info p {
+      line-height: 25px;
+      color: #2B2B2B;
+      margin-bottom: 16px;
+  }
+  .blog-main-item {
+      width: 100%;
+  }
+  .blog-main-photo img {
+    width: 100%;
+  }
+  .blog-info-title {
+    gap:10px;
+  }
+  .blog-main-info {
+    padding: 16px;
+  }
+  .blog-info-title span {
+    font-size: 13px;
+  }
+  .blog-main-content {
+    padding-top: 40px;
+  }
+  .nav-links ul {
+    padding-top: 40px;
+  }
+  .nav-links span, .nav-links a {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .nav-links ul {
+    gap:6px;
+  }
+  .blogs-details-content p {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 26px;
+  }
+  .blogs-details-content h3 {
+    font-size: 24px;
+  }
+  .watch-btn {
+    width: 50px;
+  }
+  .blogs-video {
+    margin-bottom: 30px;
+  }
+  .blog-share-box {
+      margin-top: 30px;
+  }
+  .blog-share-box {
+    flex-direction: column;
+  }
+  .blog-share-box {
+      padding:20px 0px;
+  }
+  .review-single-area .contant-us-form {
+    margin-top: 40px;
+  }
+  .rate:not(:checked) > label {
+    font-size: 16px;
+  }
+  .rate {
+      gap: 3px;
+      padding-left: 5px;
+  }
+  .ms-thumbs-cont {
+    gap: 5px !important;
+  }
+  .ms-thumb-list {
+      padding-top: 10px !important;
+  }
+  .our-work-area .ms-thumb-frame {
+    width: 80px !important;
+    height: 80px !important;
+    margin-right: 5px !important;
+  }
+  .our-work-area .ms-thumb-list.ms-dir-h.ms-align-bottom {
+      height: auto !important;
+  }
+  .privacy-policy-area ul li, .privacy-policy-area p {
+    line-height: 26px;
+  }
+  .privacy-policy-area h3 { 
+    font-size: 22px;
+  }
+  .privacy-policy-area ul li {
+    line-height: 24px;
+    padding-bottom: 8px;
+  }
+  .privacy-policy-area {
+    padding: 20px 0px;
+  }
+  .privacy-policy-area h4 {
+    margin-top: 30px;
+  }
+  .privacy-policy-area h4 {
+    font-size: 18px;
+  }
+  .description-area .common-title p,
+  .description-area .common-title h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .blog-share-box {
+    gap:8px 0px;
+  }
+  .blogs-details-area {
+    padding-bottom: 60px;
+  }
+  .blogs-details-content p > iframe{
+    height:50vh;
+  }
+  .blj-info-section {
+    padding: 60px 0px;
+  }
+  .blj-info-item {
+    width: 100%;
+  }
+  .sample-desing-area ul li strong {
+      font-size: 20px;
+      line-height: 30px;
+  }
+  .sample-desing-step h3 {
+      font-size: 22px;
+      line-height: 34px;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      padding-top: 20px;
+  }
+  .sample-desing-step h4 {  
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0px;
+  }
+  .sample-desing-area ul {
+    gap:10px;
+  }
+  .sample-desing-area ul {
+    padding-bottom: 20px;
+  }
+  .sample-desing-area h6 {
+    margin-bottom: 10px;
+  }
+  .product-delevery-area .product-price-list li {
+    width: 100%;
+    padding: 12px 10px;
+    line-height: 24px;
+  }
+  div.wpforms-container-full button[type=submit] {
+    padding: 5px 50px !important;
+  }
+  .location-map .container  {
+    flex-direction: column-reverse !important;
+  }
+  .our-extensive-map {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .location-map .extensive-text-content {
+      width: 100%;
+      padding-left: 0px;
+  }
+  .our-extensive-range.location-map {
+      padding-top: 0px;
+  }
+  .extensive-reverse .extensive-text-content {
+    padding-bottom: 40px;
+  }
+  .our-team-member-full h3 {
+      font-size: 22px;
+      line-height: 32px;
+      padding: 8px 30px;
+      margin-bottom: 24px;
+  }
+  .out-team-new .team-member-single {
+      width: 100%
+  } 
+  .ceo-name-box {
+      padding-top: 14px;
+  }
+  .our-team-info .ceo-name-box h2 {
+    font-size: 30px;
+    line-height: 37px;
+    padding-top: 14px;
+    padding-bottom: 0px;
+  }
+  .ceo-text-inner h5 {
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 5px;
+  }
+  .ceo-text-inner h3 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    padding: 8px 10px !important;
+  }
+  .our-team-info h2 {
+    font-size: 25px;
+    line-height: 24px;
+    padding-bottom: 5px;
+  }
+  .ceo-text-inner {
+    padding-bottom: 20px;
+  }
+  #myChart {
+    background: none;
+  }
+  .footer-title h3 {
+    font-size: 20px;
+  }
+  .footer-border-icon {
+      max-width: 30px;
+  }
+  .footer-title {
+    gap:10px;
+  }
+  .attempt-title h2 {
+      font-size: 40px;
+  } 
+}
+
+@media screen and (max-width: 375px) {
+  .btn-box .btn-submit {
+      width: 100%;
+      justify-content: center;
+  }
+  .wpforms-container .wpforms-field-rating-item {
+      padding: 0 5px 0 0 !important;
+  }
+  .wpforms-field-rating-items {
+    padding-left: 5px !important;
   }
 }
